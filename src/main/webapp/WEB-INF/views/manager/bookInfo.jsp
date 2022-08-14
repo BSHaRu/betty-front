@@ -3,20 +3,19 @@
 
 <%@include file="../include/header.jsp"%>
 
-
 <section>
 	<div class="container">
 		<div class="row">
 			<div class="col-la-2" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
-			<%-- 	<jsp:include page="./fragment/myPage.jsp" /> --%>
+				<jsp:include page="./fragment/myPage.jsp" />
 			</div>
 			<div class="col-la-9">
 				<h3 style="color: #fafafa">도서 관리 페이지</h3>
 				<div class="table-responsive">
 					<div class="table-wrapper">
 						<table id="example" class="table table-striped table-bordered"
-							style="width: 100%">
+							style="width: 1440px">
 							<thead>
 								<tr>
 									<th>ISBN,책번호</th>
