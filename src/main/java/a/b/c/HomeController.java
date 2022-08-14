@@ -63,9 +63,14 @@ public class HomeController {
 	public String dd() {
 		return "/myPage/rentalBook";
 	}
+	@GetMapping("/calendar")
+	public String ddㅇ() {
+		return "/myPage/calendar";
+	}
+	
+	
 	@GetMapping("/userInfo")
 	public String ff() {
 		return "/manager/userInfo";
 	}
-	
 }
