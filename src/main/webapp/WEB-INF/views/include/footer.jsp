@@ -59,6 +59,11 @@
 <script src="${path}/resources/js/jquery.slicknav.js"></script>
 <script src="${path}/resources/js/owl.carousel.min.js"></script>
 <script src="${path}/resources/js/main.js"></script>
+<script
+	src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script
+	src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+$(document).ready(function () { $('#example').DataTable(); });
 
 <%-- <script src="${path}/resources/myPage/js/mypage.js"></script> --%>
 
