@@ -12,6 +12,7 @@
 	<a href="myPage">내 정보</a> <br/>
 	<a href="rentalBook">대여 목록</a> <br/>
 	<a href="userInfo">회원 관리</a> <br/>
+	<a href="calendar">출석체크</a> <br/>
 	<a href="bookInfo">도서 관리</a> <br/>
 </h1>
 <br/>

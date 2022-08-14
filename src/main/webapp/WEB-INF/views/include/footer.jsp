@@ -65,6 +65,11 @@
 	src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
 $(document).ready(function () { $('#example').DataTable(); });
 
+<!-- fullcalendar CDN -->
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.js'></script>  
+<!-- fullcalendar 언어 CDN -->  
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/locales-all.min.js'></script>
+
 <%-- <script src="${path}/resources/myPage/js/mypage.js"></script> --%>
 
 </body>
