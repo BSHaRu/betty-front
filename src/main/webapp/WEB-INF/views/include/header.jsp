@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="${path}/resources/css/style.css" type="text/css">
     
     <link rel="stylesheet" href="${path}/resources/css/table.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/calender.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     
     <%-- <link rel="stylesheet" href="${path}/resources/myPage/css/leftnav.css" type="text/css"> --%>

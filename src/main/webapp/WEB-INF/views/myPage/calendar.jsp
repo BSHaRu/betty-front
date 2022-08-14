@@ -23,6 +23,7 @@
 				<%-- <jsp:include page="./fragment/testPage.jsp" /> --%>
 			</div>
 
+			<!-- css 적용이 안되서 어떻게 해야될 지 모르겠다.. .ㅠㅠ -->
 			<div class="col-la-7">
 				<div id='calendar'></div>
 			</div>
