@@ -34,7 +34,8 @@
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     
     <%-- <link rel="stylesheet" href="${path}/resources/myPage/css/leftnav.css" type="text/css"> --%>
-    
+    <!-- table style -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css" type="text/css">
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     
