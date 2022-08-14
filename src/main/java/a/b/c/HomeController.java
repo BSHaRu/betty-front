@@ -76,5 +76,9 @@ public class HomeController {
 	public String bookInfo() {
 		return "/manager/bookInfo";
 	}
+	@GetMapping("/rentalList")
+	public String rentalList() {
+		return "/manager/rentalList";
+	}
 
 }

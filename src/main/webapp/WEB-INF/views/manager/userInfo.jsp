@@ -4,15 +4,14 @@
 <%@include file="../include/header.jsp"%>
 
 
-
 <section>
 	<div class="container">
 		<div class="row">
 			<div class="col-la-3" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
-				<jsp:include page="./fragment/myPage.jsp" />
+				<%-- <jsp:include page="./fragment/myPage.jsp" /> --%>
 			</div>
-			<div class="col-la-7">
+			<div class="col-la-9">
 				<h3 style="color:#fafafa">회원 관리 페이지</h3>
 				<div class="table-responsive">
 					<div class="table-wrapper">
