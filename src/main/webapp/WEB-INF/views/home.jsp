@@ -4,16 +4,27 @@
 <%-- <jsp:include page="./include/header.jsp"/> --%>
 <%@include file="./include/header.jsp" %>
 
-<h4>
+<h4 style="color:#fafafa">
+	book<br/>
 	<a href="bookDetails">책 상세보기</a> <br/>
 	<a href="bookList">책 리스트</a> <br/>
+	<br/>
+	member<br/>
 	<a href="login">로그인</a> <br/>
 	<a href="signUP">회원가입</a> <br/>
+	<br/>
+	myPage<br/>
 	<a href="myPage">내 정보</a> <br/>
-	<a href="rentalBook">대여 목록</a> <br/>
+	<a href="rentalBook">대여 목록</a> 
+			| <a href="myRentalBook">현재 대여 중인 목록 리스트</a> 
+			| <a href="totalRentalBook">총 대여 목록</a><br/>
+	<a href="calendar">출석체크</a> <br/>
+	<br/>
+	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>
 	<a href="bookInfo">도서 관리</a> <br/>
 	<a href="rentalList">도서별 대여 현황</a> <br/>
+	<br/>
 </h4>
 <br/>
 

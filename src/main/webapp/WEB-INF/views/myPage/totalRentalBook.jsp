@@ -5,16 +5,14 @@
 
 <!-- myList -->
 <jsp:include page="./fragment/myPage.jsp" />
-<%-- <jsp:include page="./fragment/testPage.jsp" /> --%>
 
-<!-- 대여 table -->
 <section>
 	<div class="container">
 		<div class="row">
 			<%-- <div class="col-la-2">
 				<jsp:include page="./fragment/myPage.jsp" />
 			</div> --%>
-			<!-- 현재 대여 중인 목록 리스트 -->
+			<!-- 총 대여 목록 -->
 			<div class="col-la-7">
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
@@ -28,7 +26,7 @@
 		                            </select>
 			                    </div>
 			                    <div class="col-la-7 col-sm-7">
-			                        <h2 class="text-center">현재 대여 중인 목록</h2>
+			                        <h2 class="text-center">총 대여 목록</h2>
 			                    </div>
 			                    <div class="col-lm-1 col-sm-1">
 			                        <div class="show-entries">
@@ -50,8 +48,9 @@
 			                        <th>책 제목 <i class="fa fa-sort"></i></th>
 			                        <th>작가<i class="fa fa-sort"></i></th>
 			                        <th>대여 날짜<i class="fa fa-sort"></i></th>
-			                        <th>반납 기간 <i class="fa fa-sort"></i></th>
+			                        <th>반납 날짜 <i class="fa fa-sort"></i></th>
 			                        <th>상세보기</th>
+			                        <th>평점</th>
 			                    </tr>
 			                </thead>
 			                <tbody>
@@ -65,6 +64,17 @@
 			                        <td>
 			                        	<a href="#" class="view" title="View" data-toggle="tooltip">
 			                        	<i class="bi bi-book"></i></a>
+			                        </td>
+			                        <td>
+			                        	<div class="anime__details__rating">
+					                        <div class="rating">
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+					                        </div>
+				                      	</div>
 			                        </td>
 			                    </tr>
 			                    <!-- 2 -->
@@ -90,6 +100,17 @@
 			                        	<a href="#" class="view" title="View" data-toggle="tooltip">
 			                        	<i class="bi bi-book"></i></a>
 			                        </td>
+			                        <td>
+			                        	<div class="anime__details__rating">
+					                        <div class="rating">
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+					                        </div>
+				                      	</div>
+			                        </td>
 			                    </tr>
 			                    <!-- 4 -->
 			                    <tr>
@@ -102,6 +123,17 @@
 			                        	<a href="#" class="view" title="View" data-toggle="tooltip">
 			                        	<i class="bi bi-book"></i></a>
 			                        </td>
+			                        <td>
+			                        	<div class="anime__details__rating">
+					                        <div class="rating">
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+					                        </div>
+				                      	</div>
+			                        </td>
 			                    </tr>
 			                    <!-- 5 -->
 			                    <tr>
@@ -113,6 +145,17 @@
 			                        <td>
 			                        	<a href="#" class="view" title="View" data-toggle="tooltip">
 			                        	<i class="bi bi-book"></i></a>
+			                        </td>
+			                        <td>
+			                        	<div class="anime__details__rating">
+					                        <div class="rating">
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star"></i></a>
+					                            <a href="#"><i class="fa fa-star-half-o"></i></a>
+					                        </div>
+				                      	</div>
 			                        </td>
 			                    </tr>     
 			                </tbody>
@@ -131,7 +174,7 @@
 			                </ul>
 			            </div>
 			            
-			            <!-- 검색 -->
+		              	<!-- 검색 -->
 			            <jsp:include page="./fragment/selectBar.jsp" />
 			            
 			        </div>

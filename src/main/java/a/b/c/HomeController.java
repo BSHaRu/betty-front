@@ -41,7 +41,6 @@ public class HomeController {
 	public String bookDetails() {
 		return "/book/bookDetails";
 	}
-
 	@GetMapping("/bookList")
 	public String bookList() {
 		return "/book/bookList";
@@ -51,7 +50,6 @@ public class HomeController {
 	public String login() {
 		return "/member/login";
 	}
-
 	@GetMapping("/signUP")
 	public String signUP() {
 		return "/member/signUp";
@@ -59,19 +57,29 @@ public class HomeController {
 
 	@GetMapping("/myPage")
 	public String myPage() {
-		return "/myPage/myPage";
+		return "/myPage/fragment/myPage";
 	}
-
 	@GetMapping("/rentalBook")
 	public String rentalBook() {
 		return "/myPage/rentalBook";
+	}
+	@GetMapping("/myRentalBook")
+	public String myRentalBook() {
+		return "/myPage/myRentalBook";
+	}
+	@GetMapping("/totalRentalBook")
+	public String totalRentalBook() {
+		return "/myPage/totalRentalBook";
+	}
+	@GetMapping("/calendar")
+	public String calendar() {
+		return "/myPage/calendar";
 	}
 
 	@GetMapping("/userInfo")
 	public String userInfo() {
 		return "/manager/userInfo";
 	}
-
 	@GetMapping("/bookInfo")
 	public String bookInfo() {
 		return "/manager/bookInfo";
