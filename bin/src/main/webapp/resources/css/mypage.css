@@ -1,0 +1,70 @@
+.nav_left{
+	margin-top : 30px;
+	border : 1px solide #8792ee; /* 일단 border 적용x */
+}
+
+.left_menubar{
+	color: #fafafa;
+}
+
+
+.myMenu01 {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.myPage01 .myMenu01 li{
+	padding-bottom : 20px;
+	font-size : 18px;
+}
+
+.myPage01 .myMenu01 a{
+	color: #fafafa;
+	
+}
+
+.myMenu02 {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.myPage02 .myMenu02 li{
+	padding-bottom : 20px;
+	font-size : 18px;
+}
+
+.myPage02 .myMenu02 a{
+	color: #fafafa;
+	
+}
+
+.myMenu03 {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.myPage03 .myMenu03 li{
+	padding-bottom : 20px;
+	font-size : 18px;
+}
+
+.myPage03 .myMenu03 a{
+	color: #8972ee;
+	
+}
+
+.myMenu04 {
+	list-style : none;
+	padding-left: 0px;
+}
+
+.myPage04 .myMenu04 li{
+	padding-bottom : 20px;
+	font-size : 18px;
+}
+
+.myPage04 .myMenu04 a{
+	color: red;
+	
+}
+

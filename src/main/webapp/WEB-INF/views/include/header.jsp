@@ -31,14 +31,9 @@
     <link rel="stylesheet" href="${path}/resources/css/style.css" type="text/css">
     
     <link rel="stylesheet" href="${path}/resources/css/table.css" type="text/css">
-    <link rel="stylesheet" href="${path}/resources/css/calender.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     
     <%-- <link rel="stylesheet" href="${path}/resources/myPage/css/leftnav.css" type="text/css"> --%>
-    
-    <!-- fullcalendar CDN -->
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.css' />
-    
     <!-- table style -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css" type="text/css">
     <!-- bootstrap icon -->
