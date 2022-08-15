@@ -66,12 +66,7 @@ public class HomeController {
 	public String rentalBook() {
 		return "/myPage/rentalBook";
 	}
-	
-	@GetMapping("/calendar")
-	public String dd() {
-		return "/myPage/calendar";
-	}
-	
+
 	@GetMapping("/userInfo")
 	public String userInfo() {
 		return "/manager/userInfo";
@@ -80,10 +75,6 @@ public class HomeController {
 	@GetMapping("/bookInfo")
 	public String bookInfo() {
 		return "/manager/bookInfo";
-	}
-	@GetMapping("/rentalList")
-	public String rentalList() {
-		return "/manager/rentalList";
 	}
 
 }
