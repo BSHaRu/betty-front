@@ -4,7 +4,7 @@
 <%-- <jsp:include page="./include/header.jsp"/> --%>
 <%@include file="./include/header.jsp" %>
 
-<h1>
+<h4>
 	<a href="bookDetails">책 상세보기</a> <br/>
 	<a href="bookList">책 리스트</a> <br/>
 	<a href="login">로그인</a> <br/>
@@ -13,7 +13,8 @@
 	<a href="rentalBook">대여 목록</a> <br/>
 	<a href="userInfo">회원 관리</a> <br/>
 	<a href="bookInfo">도서 관리</a> <br/>
-</h1>
+	<a href="rentalList">도서별 대여 현황</a> <br/>
+</h4>
 <br/>
 
 <img class="hero__items set-bg" src="/c/resources/img/book/100/9788934986584.jpg" />
