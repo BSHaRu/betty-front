@@ -27,7 +27,7 @@
 			                    <div class="col-la-7 col-sm-7">
 			                        <h2 class="text-center">대여 예약</h2>
 			                    </div>
-			                    <div class="col-lm-1 col-sm-1">
+			                    <div class="col-sm- col-sm-1">
 			                        <div class="show-entries">
 			                            <select>
 			                                <option>5</option>
@@ -176,7 +176,6 @@
 	</div>
 </section>
 <%@include file="../include/footer.jsp" %>
-
 <!-- 일단 주석 (원래는 table 시작전에 있던거임)
 <script>
 	$(document).ready(function(){
