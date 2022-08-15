@@ -78,9 +78,10 @@
 			</form>
 		</div>
 	</div>
+	
+</div>
 
-	<!-- 최근에 본 책 리스트 -->
-	<div class="col-lg-4 col-md-4">
-		<jsp:include page="cookieBookList.jsp" />
-	</div>
+<!-- 최근에 본 책 리스트 -->
+<div class="col-lg-4 col-md-4">
+	<jsp:include page="cookieBookList.jsp" />
 </div>
