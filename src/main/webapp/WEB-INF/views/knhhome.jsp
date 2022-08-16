@@ -9,17 +9,18 @@
 	<a href="bookDetails">책 상세보기</a> <br/>
 	<a href="bookList">책 리스트</a> <br/>
 	<br/>
-	member<br/>
-	<a href="login">로그인</a> <br/>
-	<a href="signUP">회원가입</a> <br/>
-	<a href="signUpEdit">회원 정보 수정</a> <br/>
+	sign<br/>
+	<a href="${path }/sign/login">로그인</a> <br/>
+	<a href="${path }/sign/memeber">회원가입</a> <br/>
+	<a href="${path }/sign/staff">직원 회원가입</a> <br/>
+	<a href="${path }/sign/signUpEdit">회원 정보 수정</a> <br/>
 	<br/>
-	myPage<br/>
-	<a href="myPage">내 정보</a> <br/>
-	<a href="rentalBook">대여 목록</a> 
-			| <a href="myRentalBook">현재 대여 중인 목록 리스트</a> 
-			| <a href="totalRentalBook">총 대여 목록</a><br/>
-	<a href="calendar">출석체크</a> <br/>
+	member<br/>
+	<a href="${path }/members/fragment/myPage">내 정보</a> <br/>
+	<a href="${path }/members/num/rentals">대여 목록</a> 
+			| <a href="${path }/members/myRentalBook">현재 대여 중인 목록 리스트</a> 
+			| <a href="${path }/members/totalRentalBook">총 대여 목록</a><br/>
+	<a href="${path }/members/calendar">출석체크</a> <br/>
 	<br/>
 	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>
@@ -31,7 +32,9 @@
 	<a href="suggestions">건의사항</a> <br/>
 	<a href="notice">공지사항</a> <br/>
   
-	<a href="route">오시는 길</a> <br/>
+  	library<br/>
+  	<a href="${path }/library/membership">멤버십</a> <br/>
+	<a href="${path }/library/route">오시는 길</a> <br/>
 
 	<br/>
 </h4>
