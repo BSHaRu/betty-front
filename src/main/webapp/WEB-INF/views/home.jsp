@@ -12,6 +12,7 @@
 	member<br/>
 	<a href="login">로그인</a> <br/>
 	<a href="signUP">회원가입</a> <br/>
+	<a href="signUpEdit">회원 정보 수정</a> <br/>
 	<br/>
 	myPage<br/>
 	<a href="myPage">내 정보</a> <br/>
@@ -65,17 +66,16 @@
 	                            	<h2><b>상세검색</b></h2><br/><br/>
 	                            	
 	                                <p>제목</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
 	                                <p>저자</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
 	                                <p>출판사</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
 	                                <p>출간일</p>
-	                                <input type="date" class="form-control my-2 my-lg-1" id="title" > <br/>
+	                                <input type="date" class="form-control my-2 my-lg-1" name="title" > <br/>
 	                                <button type="button" class="sel-btn">검색</button>
 	                                <button type="button" class="can-btn">취소</button>
 	                            </div>
-	                             
                             </div>
                         </div>
                     </div>
