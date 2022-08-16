@@ -4,7 +4,7 @@
 <%@include file="../include/header.jsp" %>
 
 <!-- myList -->
-<jsp:include page="./fragment/myPage.jsp" />
+<%@include file="./fragment/myPage.jsp" %>
 				
 <section>
 	<div class="container">

@@ -4,7 +4,7 @@
 <%@include file="../include/header.jsp" %>
 
 <!-- myList -->
-<jsp:include page="./fragment/myPage.jsp" />
+<%@include file="./fragment/myPage.jsp" %>
 <%-- <jsp:include page="./fragment/testPage.jsp" /> --%>
 
 <!-- 대여 table -->

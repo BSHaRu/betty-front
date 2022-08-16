@@ -88,5 +88,9 @@ public class HomeController {
 	public String rentalList() {
 		return "/manager/rentalList";
 	}
+	@GetMapping("/signUpEdit")
+	public String signUpEdit() {
+		return "/manager/signUpEdit";
+	}
 
 }
