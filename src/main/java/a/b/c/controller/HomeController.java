@@ -49,79 +49,76 @@ public class HomeController {
 	// book
 	@GetMapping("/bookDetails")
 	public String bookDetails() {
-		return "book/bookDetails";
+		return "books/bookDetails";
 	}
 	@GetMapping("/bookList")
 	public String bookList() {
-		return "book/bookList";
+		return "books/bookList";
 	}
 	
 	@GetMapping("/login")
 	public String login() {
-		return "join/login";
+		return "sign/signIn";
 	}
 	@GetMapping("/signUP")
 	public String signUP() {
-		return "join/signUp";
+		return "sign/signUp";
 	}
 	@GetMapping("/signUpEdit")
 	public String signUpEdit() {
-		return "join/signUpEdit";
+		return "sign/signUpEdit";
 	}
 
-	// myPage
+	// memebers
 	@GetMapping("/myPage")
 	public String myPage() {
-		return "/myPage/fragment/myPage";
+		return "/memebers/fragment/myPage";
 	}
 	@GetMapping("/rentalBook")
 	public String rentalBook() {
-		return "/myPage/rentalBook";
+		return "/memebers/rentalBook";
 	}
 	@GetMapping("/myRentalBook")
 	public String myRentalBook() {
-		return "/myPage/myRentalBook";
+		return "/memebers/myRentalBook";
 	}
 	@GetMapping("/totalRentalBook")
 	public String totalRentalBook() {
-		return "/myPage/totalRentalBook";
+		return "/memebers/totalRentalBook";
 	}
 	@GetMapping("/calendar")
 	public String calendar() {
-		return "/myPage/calendar";
+		return "/memebers/calendar";
 	}
 
 	// 직원
 	@GetMapping("/userInfo")
 	public String userInfo() {
-		return "/manager/userInfo";
+		return "/staff/userInfo";
 	}
 	@GetMapping("/bookInfo")
 	public String bookInfo() {
-		return "/manager/bookInfo";
+		return "/staff/bookInfo";
 	}
 	@GetMapping("/rentalList")
 	public String rentalList() {
-		return "/manager/rentalList";
+		return "/staff/rentalList";
 	}
 	
 	// 게시판
 	@GetMapping("/freeBoard")
 	public String freeBoard() {
-		return "/board/freeBoard";
+		return "/boards/free";
 	}
 	@GetMapping("/suggestions")
 	public String suggestions() {
-		return "/board/suggestions";
+		return "/boards/suggest";
 	}
 	@GetMapping("/notice")
 	public String notice() {
-		return "/board/notice";
+		return "/boards/notice";
 	}
 
-	@GetMapping("/route")
-	public String route() {
-		return "/manager/route";
-	}
+	
 
 }

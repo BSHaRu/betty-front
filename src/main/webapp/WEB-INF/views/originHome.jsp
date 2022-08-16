@@ -9,19 +9,19 @@
 	<a href="bookDetails">책 상세보기</a> <br/>
 	<a href="bookList">책 리스트</a> <br/>
 	<br/>
-	sign<br/>
+	member<br/>
 	<a href="login">로그인</a> <br/>
 	<a href="signUP">회원가입</a> <br/>
 	<a href="signUpEdit">회원 정보 수정</a> <br/>
 	<br/>
-	member<br/>
+	myPage<br/>
 	<a href="myPage">내 정보</a> <br/>
 	<a href="rentalBook">대여 목록</a> 
 			| <a href="myRentalBook">현재 대여 중인 목록 리스트</a> 
 			| <a href="totalRentalBook">총 대여 목록</a><br/>
 	<a href="calendar">출석체크</a> <br/>
 	<br/>
-	staff<br/>
+	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>
 	<a href="bookInfo">도서 관리</a> <br/>
 	<a href="rentalList">도서별 대여 현황</a> <br/>

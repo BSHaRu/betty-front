@@ -8,7 +8,6 @@
 		<div class="row">
 			<div class="col-la-3" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
-				<jsp:include page="./fragment/myPage.jsp" />
 			</div>
 			<div class="col-la-7">
 				<!-- 오시는 길 (지도, 로드뷰)-->
