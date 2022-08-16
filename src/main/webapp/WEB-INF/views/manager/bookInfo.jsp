@@ -118,60 +118,6 @@
 									<th>rental</th>
 									<th>date</th>
 								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
-								<tr>
-									<th>code, num</th>
-									<th>title</th>
-									<th>auth</th>
-									<th>pub</th>
-									<th>genre</th>
-									<th>rental</th>
-									<th>date</th>
-								</tr>
 							</tbody>
 						</table>
 					</div>
@@ -180,7 +126,6 @@
 		</div>
 	</div>
 </section>
-
 
 <%@include file="../include/footer.jsp"%>
 </html>
