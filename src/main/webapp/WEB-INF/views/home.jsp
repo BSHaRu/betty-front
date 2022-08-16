@@ -23,10 +23,16 @@
 	<br/>
 	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>
+
+	<a href="freeBoard">자유게시판</a> <br/>
+	<a href="suggestions">건의사항</a> <br/>
+	<a href="notice">공지사항</a> <br/>
+
 	<a href="bookInfo">도서 관리</a> <br/>
 	<a href="rentalList">도서별 대여 현황</a> <br/>
 	<br/>
 </h4>
+
 <br/>
 
 <img class="hero__items set-bg" src="/c/resources/img/book/100/9788934986584.jpg" />
