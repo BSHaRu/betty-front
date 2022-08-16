@@ -223,7 +223,7 @@
 			<!-- width : 10% -->
 			<div class="col-lg-2 col-md-2 col-sm-2">
 				<!-- 최근에 클릭 한 책 리스트 -->
-				<jsp:include page="./fragment/cookieBookList.jsp" />
+				<jsp:include page="cookieBookList.jsp" />
 			</div>
 		</div>
 	</div>

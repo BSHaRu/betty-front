@@ -54,6 +54,8 @@
 <script src="${path}/resources/js/owl.carousel.min.js"></script>
 <script src="${path}/resources/js/main.js"></script>
 
+<script src="${path}/resources/js/modal.js"></script>
+
 <!-- ㅅㄱ db -->
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
