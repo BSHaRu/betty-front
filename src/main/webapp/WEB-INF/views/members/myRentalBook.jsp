@@ -3,19 +3,16 @@
 
 <%@include file="../include/header.jsp" %>
 
-<!-- myList -->
-<%@include file="./fragment/myPage.jsp" %>
-<%-- <jsp:include page="./fragment/testPage.jsp" /> --%>
-
 <!-- 대여 table -->
 <section>
 	<div class="container">
 		<div class="row">
-			<%-- <div class="col-la-2">
-				<jsp:include page="./fragment/myPage.jsp" />
-			</div> --%>
+			<!-- myList -->
+			<div>
+				<%@include file="./fragment/myPage.jsp" %>
+			</div>
 			<!-- 현재 대여 중인 목록 리스트 -->
-			<div class="col-la-7">
+			<div>
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
 			            <div class="table-title">
