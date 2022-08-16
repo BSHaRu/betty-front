@@ -20,12 +20,12 @@
 							style="width: 100%">
 							<thead>
 								<tr>
-									<th>Name</th>
-									<th>Position</th>
-									<th>Office</th>
-									<th>Age</th>
-									<th>Start date</th>
-									<th>Salary</th>
+									<th>아이디</th>
+									<th>이름</th>
+									<th>성별</th>
+									<th>전화번호</th>
+									<th>생년월일</th>
+									<th>주소</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -102,16 +102,7 @@
 									<td>$112,000</td>
 								</tr>
 							</tbody>
-							<tfoot>
-								<tr>
-									<th>Name</th>
-									<th>Position</th>
-									<th>Office</th>
-									<th>Age</th>
-									<th>Start date</th>
-									<th>Salary</th>
-								</tr>
-							</tfoot>
+							
 						</table>
 					</div>
 				</div>

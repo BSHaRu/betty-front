@@ -110,4 +110,24 @@ public class HomeController {
 	public String notice() {
 		return "/board/notice";
 	}
+
+	@GetMapping("/bookInfo")
+	public String bookInfo() {
+		return "/manager/bookInfo";
+	}
+	@GetMapping("/rentalList")
+	public String rentalList() {
+		return "/manager/rentalList";
+	}
+
+	@GetMapping("/route")
+	public String route() {
+		return "/manager/route";
+	}
+
+	@GetMapping("/signUpEdit")
+	public String signUpEdit() {
+		return "/manager/signUpEdit";
+	}
+
 }
