@@ -22,7 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="a.b.c" />
-	
+	<context:component-scan base-package="a.b.c.*.controller" />
 	
 	
 </beans:beans>

@@ -1,4 +1,4 @@
-package a.b.c;
+package a.b.c.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -36,29 +36,37 @@ public class HomeController {
 
 		return "home";
 	}
+	
+	@GetMapping("knhhome")
+	public void knhHome() {}
+	
+	@GetMapping("sunhome")
+	public void sunHome() {}
+	
+	@GetMapping("joohome")
+	public void jooHome() {}
 
 	// book
 	@GetMapping("/bookDetails")
 	public String bookDetails() {
-		return "/book/bookDetails";
+		return "book/bookDetails";
 	}
 	@GetMapping("/bookList")
 	public String bookList() {
-		return "/book/bookList";
+		return "book/bookList";
 	}
-
-	// member
+	
 	@GetMapping("/login")
 	public String login() {
-		return "/member/login";
+		return "join/login";
 	}
 	@GetMapping("/signUP")
 	public String signUP() {
-		return "/member/signUp";
+		return "join/signUp";
 	}
 	@GetMapping("/signUpEdit")
 	public String signUpEdit() {
-		return "/member/signUpEdit";
+		return "join/signUpEdit";
 	}
 
 	// myPage
