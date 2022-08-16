@@ -12,6 +12,9 @@
 	<a href="myPage">내 정보</a> <br/>
 	<a href="rentalBook">대여 목록</a> <br/>
 	<a href="userInfo">회원 관리</a> <br/>
+	<a href="freeBoard">자유게시판</a> <br/>
+	<a href="suggestions">건의사항</a> <br/>
+	<a href="notice">공지사항</a> <br/>
 </h1>
 <br/>
 

@@ -67,5 +67,20 @@ public class HomeController {
 	public String ff() {
 		return "/manager/userInfo";
 	}
+	@GetMapping("/freeBoard")
+	public String freeBoard() {
+		return "/board/freeBoard";
+	}
+	
+	@GetMapping("/suggestions")
+	public String suggestions() {
+		return "/board/suggestions";
+	}
+	
+	@GetMapping("/notice")
+	public String notice() {
+		return "/board/notice";
+	}
+	
 	
 }
