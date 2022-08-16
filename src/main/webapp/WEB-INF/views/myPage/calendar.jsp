@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<%@include file="../include/header.jsp" %>
+
 <%@include file="./fragment/myPage.jsp" %>
 
 <!-- calendar script -->
@@ -14,15 +16,12 @@
 	});
 </script>
 
-<!-- myList -->
-<jsp:include page="./fragment/myPage.jsp" />
-
 <section>
 	<div class="container">
 		<div class="row">
 			<%-- <div class="col-la-2">
-				<jsp:include page="./fragment/myPage.jsp" /> 
-			</div> --%>
+				<%@include file="./fragment/myPage.jsp" %>
+			</div>  --%>
 
 			<!-- css 적용이 안되서 어떻게 해야될 지 모르겠다.. .ㅠㅠ -->
 			<div class="col-la-7">
