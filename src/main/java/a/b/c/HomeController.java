@@ -37,6 +37,7 @@ public class HomeController {
 		return "home";
 	}
 
+	// book
 	@GetMapping("/bookDetails")
 	public String bookDetails() {
 		return "/book/bookDetails";
@@ -46,6 +47,7 @@ public class HomeController {
 		return "/book/bookList";
 	}
 
+	// member
 	@GetMapping("/login")
 	public String login() {
 		return "/member/login";
@@ -54,7 +56,12 @@ public class HomeController {
 	public String signUP() {
 		return "/member/signUp";
 	}
+	@GetMapping("/signUpEdit")
+	public String signUpEdit() {
+		return "/member/signUpEdit";
+	}
 
+	// myPage
 	@GetMapping("/myPage")
 	public String myPage() {
 		return "/myPage/fragment/myPage";
@@ -76,26 +83,34 @@ public class HomeController {
 		return "/myPage/calendar";
 	}
 
+	// 직원
 	@GetMapping("/userInfo")
 	public String userInfo() {
 		return "/manager/userInfo";
 	}
-
+	@GetMapping("/bookInfo")
+	public String bookInfo() {
+		return "/manager/bookInfo";
+	}
+	@GetMapping("/rentalList")
+	public String rentalList() {
+		return "/manager/rentalList";
+	}
+	
+	// 게시판
 	@GetMapping("/freeBoard")
 	public String freeBoard() {
 		return "/board/freeBoard";
 	}
-	
 	@GetMapping("/suggestions")
 	public String suggestions() {
 		return "/board/suggestions";
 	}
-	
 	@GetMapping("/notice")
 	public String notice() {
 		return "/board/notice";
 	}
-	
+
 	@GetMapping("/bookInfo")
 	public String bookInfo() {
 		return "/manager/bookInfo";
