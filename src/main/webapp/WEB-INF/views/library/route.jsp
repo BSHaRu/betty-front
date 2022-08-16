@@ -9,10 +9,10 @@
 			<div class="col-la-3" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
 			</div>
-			<div class="col-la-7">
+			<div class="col-la-7 center-block">
 				<!-- 오시는 길 (지도, 로드뷰)-->
 				<!-- 도메인이 로컬 호스트로 되어있습니다, 사이트 도메인이 생성되면 사이트주소에맞게 키 를 새로 발급받아야 함. -->
-				<h3 style="color: #fafafa">오시는 길</h3>
+				<h1 style="text-align: center;color: #fafafa">오시는 길</h1><br/>
 				<div id="map" style="width: 900px; height: 550px;"></div>
 				<script type="text/javascript"
 					src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d2d627d342f7e95fdb4c15682d4ebc7c"></script>
