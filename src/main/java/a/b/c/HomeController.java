@@ -88,5 +88,9 @@ public class HomeController {
 	public String rentalList() {
 		return "/manager/rentalList";
 	}
+	@GetMapping("/route")
+	public String route() {
+		return "/manager/route";
+	}
 
 }

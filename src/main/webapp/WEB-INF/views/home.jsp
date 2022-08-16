@@ -24,6 +24,7 @@
 	<a href="userInfo">회원 관리</a> <br/>
 	<a href="bookInfo">도서 관리</a> <br/>
 	<a href="rentalList">도서별 대여 현황</a> <br/>
+	<a href="route">오시는 길</a> <br/>
 	<br/>
 </h4>
 <br/>

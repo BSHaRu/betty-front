@@ -10,12 +10,12 @@
 				<!-- 사이드바 들어가는 공간 -->
 				<jsp:include page="./fragment/myPage.jsp" />
 			</div>
-			<div class="col-la-9">
+			<div class="col-la-7">
 				<h3 style="color: #fafafa">도서 관리 페이지</h3>
 				<div class="table-responsive">
 					<div class="table-wrapper">
 						<table id="example" class="table table-striped table-bordered"
-							style="width: 1440px">
+							style="width: 100%">
 							<thead>
 								<tr>
 									<th>ISBN,책번호</th>
@@ -29,8 +29,8 @@
 							</thead>
 							<tbody>
 								<tr>
-									<th>ISBN:979-11-61571-37-9#2</th>
-									<th>코믹 전생했더니 슬라임이었던 건에 대하여 ~마물의 나라를 즐기는 법~ 8</th>
+									<th>979-11-61571-37-9 #2</th>
+									<th>전생했더니 슬라임이었던 건</th>
 									<th>히가시노게이야</th>
 									<th>예스24시</th>
 									<th>이세계 전생물</th>
@@ -125,6 +125,7 @@
 			</div>
 		</div>
 	</div>
+	<br />
 </section>
 
 <%@include file="../include/footer.jsp"%>
