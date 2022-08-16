@@ -80,6 +80,22 @@ public class HomeController {
 	public String userInfo() {
 		return "/manager/userInfo";
 	}
+
+	@GetMapping("/freeBoard")
+	public String freeBoard() {
+		return "/board/freeBoard";
+	}
+	
+	@GetMapping("/suggestions")
+	public String suggestions() {
+		return "/board/suggestions";
+	}
+	
+	@GetMapping("/notice")
+	public String notice() {
+		return "/board/notice";
+	}
+	
 	@GetMapping("/bookInfo")
 	public String bookInfo() {
 		return "/manager/bookInfo";
@@ -88,9 +104,15 @@ public class HomeController {
 	public String rentalList() {
 		return "/manager/rentalList";
 	}
+
 	@GetMapping("/route")
 	public String route() {
 		return "/manager/route";
+	}
+
+	@GetMapping("/signUpEdit")
+	public String signUpEdit() {
+		return "/manager/signUpEdit";
 	}
 
 }
