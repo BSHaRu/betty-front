@@ -32,6 +32,7 @@
     
     <link rel="stylesheet" href="${path}/resources/css/table.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/modal.css" type="text/css">
     
     <!-- fullcalendar CDN -->
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.css' />
