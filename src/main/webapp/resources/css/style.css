@@ -207,6 +207,32 @@ ol {
 	padding: 12px 30px;
 }
 
+.can-btn {
+	font-size: 15px;
+	color: #fafafa;
+	background: red;
+	border: none;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+
+.sel-btn {
+	font-size: 15px;
+	color: #fafafa;
+	background: blue;
+	border: none;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 20px;
+	float: left;
+}
+
 /* Preloder */
 
 #preloder {
@@ -1735,12 +1761,13 @@ ol {
 	padding-bottom: 120px;
 }
 
+
 .login__form {
-		position: relative;
+	position: relative;
 	padding-left: 145px;
 }
 
-/* 
+	/* 
 .login__form:after {
 	position: absolute;
 	right: -14px;

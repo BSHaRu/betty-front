@@ -4,18 +4,35 @@
 <%-- <jsp:include page="./include/header.jsp"/> --%>
 <%@include file="./include/header.jsp" %>
 
-<h1>
+<h4 style="color:#fafafa">
+	book<br/>
 	<a href="bookDetails">책 상세보기</a> <br/>
 	<a href="bookList">책 리스트</a> <br/>
+	<br/>
+	member<br/>
 	<a href="login">로그인</a> <br/>
 	<a href="signUP">회원가입</a> <br/>
+	<a href="signUpEdit">회원 정보 수정</a> <br/>
+	<br/>
+	myPage<br/>
 	<a href="myPage">내 정보</a> <br/>
-	<a href="rentalBook">대여 목록</a> <br/>
+	<a href="rentalBook">대여 목록</a> 
+			| <a href="myRentalBook">현재 대여 중인 목록 리스트</a> 
+			| <a href="totalRentalBook">총 대여 목록</a><br/>
+	<a href="calendar">출석체크</a> <br/>
+	<br/>
+	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>
+
 	<a href="freeBoard">자유게시판</a> <br/>
 	<a href="suggestions">건의사항</a> <br/>
 	<a href="notice">공지사항</a> <br/>
-</h1>
+
+	<a href="bookInfo">도서 관리</a> <br/>
+	<a href="rentalList">도서별 대여 현황</a> <br/>
+	<br/>
+</h4>
+
 <br/>
 
 <img class="hero__items set-bg" src="/c/resources/img/book/100/9788934986584.jpg" />
@@ -23,7 +40,6 @@
 
 <!-- Slider Section Begin -->
 <%@include file="./include/sliderSection.jsp" %>
-<%-- <jsp:include page="./main/sliderSection.jsp"/> --%>    
 <!-- Slider Section End -->
 
 <!-- 검색 -->
@@ -41,6 +57,7 @@
                             </select>
                             <!-- <div class="nice-select w-100 form-control mt-lg-1 mt-md-2" tabindex="0"><span class="current">Category</span><ul class="list"><li data-value="Category" class="option selected">Category</li><li data-value="1" class="option">Top rated</li><li data-value="2" class="option">Lowest Price</li><li data-value="4" class="option">Highest Price</li></ul></div> -->
                         </div>
+                        
                         <div class="form-group col-xl-4 col-lg-3 col-md-6">
                             <input type="text" class="form-control my-2 my-lg-1" id="inputtext4" placeholder="어떤 책을 찾으시나요?">
                         </div>
@@ -48,16 +65,23 @@
                             <button type="submit" class="btn btn-primary active w-100">검색하기</button>
                         </div>
                         <div class="form-group col-lg-3 col-md-6">
-                            <button type="button" class="btn btn-primary active w-100">상세 검색</button>
-                            <div>
-                                <p>제목</p>
-                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
-                                <p>저자</p>
-                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
-                                <p>출판사</p>
-                                <input type="text" class="form-control my-2 my-lg-1" id="title" > <br/>
-                                <p>출간일</p>
-                                <input type="date" class="form-control my-2 my-lg-1" id="title" > <br/>
+                            <button type="button" class="btn btn-primary active w-100" id="modal_btn">상세 검색</button>
+                            <div id="modal">
+	                            <div class="modal_view">
+		                            <div class="close-area"><h3>x</h3></div>
+	                            	<h2><b>상세검색</b></h2><br/><br/>
+	                            	
+	                                <p>제목</p>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <p>저자</p>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <p>출판사</p>
+	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <p>출간일</p>
+	                                <input type="date" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <button type="button" class="sel-btn">검색</button>
+	                                <button type="button" class="can-btn">취소</button>
+	                            </div>
                             </div>
                         </div>
                     </div>

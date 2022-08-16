@@ -81,6 +81,6 @@
 
 	<!-- 최근에 본 책 리스트 -->
 	<div class="col-lg-4 col-md-4">
-		<jsp:include page="cookieBookList.jsp" />
+		<%@include file="../cookieBookList.jsp" %>
 	</div>
 </div>

@@ -26,7 +26,7 @@
         <div class="anime__details__content">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="anime__details__pic set-bg" data-setbg="img/anime/details-pic.jpg">
+                    <div class="anime__details__pic set-bg" data-setbg="img.jpg">
                         <!-- 
                         <div class="comment"><i class="fa fa-comments"></i> 댓글</div>
                         <div class="view"><i class="fa fa-eye"></i> 조회수</div> 
@@ -62,7 +62,6 @@
                                         <li><span>작가:</span> 무라카미 하루키</li>
                                         <li><span>출판일:</span> 2020.02.02 </li>
                                         <li><span>출판사:</span> 문학동네 </li>
-                                        <li><span>책 상태:</span> A / B / C</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
@@ -71,7 +70,6 @@
                                         <li><span>무게:</span> 516g</li>
                                         <li><span>ISBN:</span> 9791189909390</li>
                                         <li><span>조회수:</span> 131,541</li>
-                                        <li><span>뭘적지:</span> 그러게</li>
                                     </ul>
                                 </div>
                             </div>

@@ -17,56 +17,70 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class HomeController {
-	
+
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-	
+
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
-		
+
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
+
 		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
+
+		model.addAttribute("serverTime", formattedDate);
+
 		return "home";
 	}
-	
+
 	@GetMapping("/bookDetails")
-	public String a() {
+	public String bookDetails() {
 		return "/book/bookDetails";
 	}
-		@GetMapping("/bookList")
-	public String aa() {
+	@GetMapping("/bookList")
+	public String bookList() {
 		return "/book/bookList";
 	}
-	
+
 	@GetMapping("/login")
-	public String c() {
+	public String login() {
 		return "/member/login";
 	}
 	@GetMapping("/signUP")
-	public String cc() {
+	public String signUP() {
 		return "/member/signUp";
 	}
-	
+
 	@GetMapping("/myPage")
-	public String d() {
-		return "/myPage/myPage";
+	public String myPage() {
+		return "/myPage/fragment/myPage";
 	}
 	@GetMapping("/rentalBook")
-	public String dd() {
+	public String rentalBook() {
 		return "/myPage/rentalBook";
 	}
+	@GetMapping("/myRentalBook")
+	public String myRentalBook() {
+		return "/myPage/myRentalBook";
+	}
+	@GetMapping("/totalRentalBook")
+	public String totalRentalBook() {
+		return "/myPage/totalRentalBook";
+	}
+	@GetMapping("/calendar")
+	public String calendar() {
+		return "/myPage/calendar";
+	}
+
 	@GetMapping("/userInfo")
-	public String ff() {
+	public String userInfo() {
 		return "/manager/userInfo";
 	}
+
 	@GetMapping("/freeBoard")
 	public String freeBoard() {
 		return "/board/freeBoard";
@@ -82,5 +96,18 @@ public class HomeController {
 		return "/board/notice";
 	}
 	
-	
+	@GetMapping("/bookInfo")
+	public String bookInfo() {
+		return "/manager/bookInfo";
+	}
+	@GetMapping("/rentalList")
+	public String rentalList() {
+		return "/manager/rentalList";
+	}
+	@GetMapping("/signUpEdit")
+	public String signUpEdit() {
+		return "/manager/signUpEdit";
+	}
+
+
 }

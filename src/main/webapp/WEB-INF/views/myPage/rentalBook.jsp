@@ -3,16 +3,17 @@
 
 <%@include file="../include/header.jsp" %>
 
+<!-- myList -->
+<%@include file="./fragment/myPage.jsp" %>
+				
 <section>
 	<div class="container">
 		<div class="row">
-			<!-- myList -->
-			<div class="col-la-2">
+			<%-- <div class="col-la-2">
 				<jsp:include page="./fragment/myPage.jsp" />
-				<%-- <jsp:include page="./fragment/testPage.jsp" /> --%>
-			</div>
+			</div> --%>
 			<!-- 대여 예약 -->
-			<div class="col-la-7">
+			<div>
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
 			            <div class="table-title">
@@ -27,7 +28,7 @@
 			                    <div class="col-la-7 col-sm-7">
 			                        <h2 class="text-center">대여 예약</h2>
 			                    </div>
-			                    <div class="col-sm- col-sm-1">
+			                    <div class="col-lm-1 col-sm-1">
 			                        <div class="show-entries">
 			                            <select>
 			                                <option>5</option>
@@ -169,6 +170,9 @@
 			                </ul>
 			            </div>
 			            
+			            <!-- 검색 -->
+			            <jsp:include page="./fragment/selectBar.jsp" />
+			            
 			        </div>
 			    </div>        
 			</div>  
@@ -176,25 +180,5 @@
 	</div>
 </section>
 <%@include file="../include/footer.jsp" %>
-<!-- 일단 주석 (원래는 table 시작전에 있던거임)
-<script>
-	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip();
-		// Animate select box length
-		var searchInput = $(".search-box input");
-		var inputGroup = $(".search-box .input-group");
-		var boxWidth = inputGroup.width();
-		searchInput.focus(function(){
-			inputGroup.animate({
-				width: "300"
-			});
-		}).blur(function(){
-			inputGroup.animate({
-				width: boxWidth
-			});
-		});
-	});
-</script>
- -->
- 
+
  </html>

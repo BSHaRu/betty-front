@@ -1,11 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%-- 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="f" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<c:set var="path" value="${pageContext.request.contextPath}" />
- --%>
 <!-- Footer Section Begin -->
 <footer class="footer">
     <div class="page-up">
@@ -59,6 +53,22 @@
 <script src="${path}/resources/js/jquery.slicknav.js"></script>
 <script src="${path}/resources/js/owl.carousel.min.js"></script>
 <script src="${path}/resources/js/main.js"></script>
+
+<script src="${path}/resources/js/modal.js"></script>
+
+<!-- ㅅㄱ db -->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#example').DataTable();
+	});
+</script>
+
+<!-- fullcalendar CDN -->
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.js'></script>  
+<!-- fullcalendar 언어 CDN -->  
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/locales-all.min.js'></script>
 
 <%-- <script src="${path}/resources/myPage/js/mypage.js"></script> --%>
 
