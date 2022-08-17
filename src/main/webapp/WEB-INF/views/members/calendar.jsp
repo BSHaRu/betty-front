@@ -3,8 +3,6 @@
 
 <%@include file="../include/header.jsp" %>
 
-<%@include file="./fragment/myPage.jsp" %>
-
 <!-- calendar script -->
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
@@ -19,12 +17,11 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<%-- <div class="col-la-2">
+			<div>
 				<%@include file="./fragment/myPage.jsp" %>
-			</div>  --%>
-
+			</div>
 			<!-- css 적용이 안되서 어떻게 해야될 지 모르겠다.. .ㅠㅠ -->
-			<div class="col-la-7">
+			<div>
 				<div id='calendar'></div>
 			</div>
 		</div>

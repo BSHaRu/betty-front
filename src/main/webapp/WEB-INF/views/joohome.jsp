@@ -27,10 +27,10 @@
 	<a href="rentalList">도서별 대여 현황</a> <br/>
 	<br/>
 	board<br/>
-	<a href="freeBoard">자유게시판</a> <br/>
-	<a href="suggestions">건의사항</a> <br/>
-	<a href="notice">공지사항</a> <br/>
-  
+	<a href="boards/free">자유게시판</a> <br/>
+	<a href="boards/suggest">건의사항</a> <br/>
+	<a href="boards/notice">공지사항</a> <br/>
+  	<a href="boards/free/num">상세보기</a> <br/>
 	<a href="route">오시는 길</a> <br/>
 
 	<br/>

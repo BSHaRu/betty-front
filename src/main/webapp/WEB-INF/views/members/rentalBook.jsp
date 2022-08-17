@@ -4,17 +4,17 @@
 <%@include file="../include/header.jsp" %>
 
 <!-- myList -->
-<%@include file="./fragment/myPage.jsp" %>
+<%-- <%@include file="./fragment/myPage.jsp" %> --%>
 				
 <section>
 	<div class="container">
 		<div class="row">
-			<%-- <div class="col-la-2">
-				<jsp:include page="./fragment/myPage.jsp" />
-			</div> --%>
+			<div>
+				<%@include file="./fragment/myPage.jsp" %>
+			</div>
 			<!-- 대여 예약 -->
 			<div>
-			    <div class="table-responsive">
+			    <div class="betty-table">
 			        <div class="table-wrapper">			
 			            <div class="table-title">
 			                <div class="row">
@@ -41,7 +41,7 @@
 			                </div>
 			            </div>
 			            
-			            <table class="table table-bordered">
+			            <table class="table table-striped table-dark">
 			                <thead>
 			                    <tr>
 			                        <th>#</th>
