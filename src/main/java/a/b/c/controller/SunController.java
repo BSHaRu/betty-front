@@ -65,15 +65,29 @@ public class SunController {
 	public String route() {
 		return "/library/route";
 	}
+	
 	// 이용시간 안내
 	@GetMapping("/library/time")
 	public String useTime() {
 		return "/library/useTime";
 	}
 	// 편의시설
-	
+	@GetMapping("/library/facilities")
+	public String facilities() {
+		return "/library/facilities";
+	}
 	// 멤버십 안내
+	@GetMapping("/library/membership")
+	public String membership() {
+		return "/library/membership";
+	}
 	// 스터디룸
+	@GetMapping("/library/room")
+	public String room() {
+		return "/library/room";
+	}
+	
+	
 	// 최근 본 책 (side bar) ===나중에
 	// 오프라인 화면 ===나중에
 
