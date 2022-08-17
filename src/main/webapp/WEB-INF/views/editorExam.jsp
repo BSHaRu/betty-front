@@ -8,11 +8,10 @@
 	<script src="resources/ckeditor/ckeditor.js"></script>
 	<script>
 		var ckeditor_config = {
-				resize_enaleb : false,
+				resize_enable : false,
 			    enterMode : CKEDITOR.ENTER_BR,
 			    shiftEnterMode : CKEDITOR.ENTER_P,
-			    filebrowserUploadUrl : "resources/ckUpload.do",
-				filebrowserUploadMethod: 'form'
+			    filebrowserUploadUrl : "resources/ckUpload.do"
 		};	
 	</script>
 </head>
