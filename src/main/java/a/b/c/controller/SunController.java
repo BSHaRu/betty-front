@@ -39,58 +39,61 @@ public class SunController {
 	public String booksManagement() {
 		return "staff/booksManagement";
 	}
+
 	// 도서 입고
 	@GetMapping("/staff/books/new")
 	public String newBooks() {
 		return "staff/newBooks";
 	}
+
 	// ㅍ도서 폐기
 	@GetMapping("/staff/books/num")
 	public String disposalBooks(
-			// @PathVariable int num
-			) {
+	// @PathVariable int num
+	) {
 		return "staff/disposalBooks";
 	}
+
 	// 도서 정보 수정
 	@GetMapping("/staff/books/num/edit")
 	public String updateBooks(
-			// @PathVariable int num
-			) {
+	// @PathVariable int num
+	) {
 		return "staff/updateBooks";
 	}
-	
+
 //Library Convenience
 	// 찾아오시는 길
 	@GetMapping("/library/route")
 	public String route() {
 		return "/library/route";
 	}
-	
+
 	// 이용시간 안내
 	@GetMapping("/library/time")
 	public String useTime() {
 		return "/library/useTime";
 	}
+
 	// 편의시설
 	@GetMapping("/library/facilities")
 	public String facilities() {
 		return "/library/facilities";
 	}
 
-	/*
-	 * // 멤버십 안내
-	 * @GetMapping("/library/membership") public String membership() { return
-	 * "/library/membership"; }
-	 */
+	// 멤버십 안내
+	@GetMapping("/library/membership")
+	public String membership() {
+		return "/library/membership";
+	}
+
 	// 스터디룸
 	@GetMapping("/library/room")
 	public String room() {
 		return "/library/room";
 	}
-	
-	
+
 	// 최근 본 책 (side bar) ===나중에
 	// 오프라인 화면 ===나중에
 
-	
 }
