@@ -76,11 +76,12 @@ public class SunController {
 	public String facilities() {
 		return "/library/facilities";
 	}
-	// 멤버십 안내
-	@GetMapping("/library/membership")
-	public String membership() {
-		return "/library/membership";
-	}
+
+	/*
+	 * // 멤버십 안내
+	 * @GetMapping("/library/membership") public String membership() { return
+	 * "/library/membership"; }
+	 */
 	// 스터디룸
 	@GetMapping("/library/room")
 	public String room() {
