@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@include file="../include/header.jsp" %>
+<%@include file="../../include/header.jsp" %>
 <style>
 	#pa{
 		height: 100px;
@@ -14,7 +14,7 @@
 			<div class="col-la-2 col-sm-3">
 				<jsp:include page="./fragment/boards.jsp" />
 			</div>
-			<!-- 자유게시판 -->
+			<!-- 공지사항 -->
 			<div class="col-la-7">
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
@@ -27,15 +27,8 @@
 		                                <option value="3">말머리2</option>
 		                            </select>
 			                    </div>
-			                    <div class="row">
-				                    <div class="col-la col-sm">
-				                    	<a href="#">10추</a>
-						                <a href="#">20추</a>
-						                <a href="#">30추</a>
-				                    </div>
-				                </div>   
 			                    <div class="col-la-5 col-sm-5">
-			                        <h2 class="text-center">자유 게시판</h2>
+			                        <h2 class="text-center">공지사항</h2>
 			                    </div>
 			                    <div class="col-sm- col-sm-1">
 			                        <div class="show-entries">
@@ -181,7 +174,7 @@
 		                </form>
 			            
 			            <!-- 페이징 처리 -->
-			            <div class="form-row">
+			            <div class="form-row" id="z">
 			                <ul class="pagination" id="pa">
 			                    <li><a href="#" >Previous</a></li>
 			                    <li><a href="#" >1</a></li>
@@ -199,5 +192,5 @@
 	</div>
 </section>
 
-<%@include file="../include/footer.jsp" %>
+<%@include file="../../include/footer.jsp" %>
 </html>

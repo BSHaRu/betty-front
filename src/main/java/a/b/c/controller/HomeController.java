@@ -105,19 +105,6 @@ public class HomeController {
 		return "/staff/rentalList";
 	}
 	
-	// 게시판
-	@GetMapping("/freeBoard")
-	public String freeBoard() {
-		return "/boards/free";
-	}
-	@GetMapping("/suggestions")
-	public String suggestions() {
-		return "/boards/suggest";
-	}
-	@GetMapping("/notice")
-	public String notice() {
-		return "/boards/notice";
-	}
 
 	
 
