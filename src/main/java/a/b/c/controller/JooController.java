@@ -30,5 +30,9 @@ public class JooController {
 		public String noticeBoardEdit(@PathVariable int num) {
 			return "boards/suggest/edit";
 		}
-	
+		
+		@GetMapping("/boards/free/new")
+		public String freeRegist() {
+			return "boards/free/freeRegist";
+		}
 }
