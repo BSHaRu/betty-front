@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-la-2" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
-				<jsp:include page="./fragment/myPage.jsp" />
+				<%-- <jsp:include page="./fragment/myPage.jsp" /> --%>
 			</div>
 			<div class="col-la-7">
 				<h3 style="color: #fafafa">도서 관리 페이지</h3>
