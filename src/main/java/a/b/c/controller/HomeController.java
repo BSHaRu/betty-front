@@ -56,40 +56,6 @@ public class HomeController {
 		return "books/bookList";
 	}
 	
-	@GetMapping("/login")
-	public String login() {
-		return "sign/signIn";
-	}
-	@GetMapping("/signUP")
-	public String signUP() {
-		return "sign/signUp";
-	}
-	@GetMapping("/signUpEdit")
-	public String signUpEdit() {
-		return "sign/signUpEdit";
-	}
-
-	// memebers
-	@GetMapping("/myPage")
-	public String myPage() {
-		return "/memebers/fragment/myPage";
-	}
-	@GetMapping("/rentalBook")
-	public String rentalBook() {
-		return "/memebers/rentalBook";
-	}
-	@GetMapping("/myRentalBook")
-	public String myRentalBook() {
-		return "/memebers/myRentalBook";
-	}
-	@GetMapping("/totalRentalBook")
-	public String totalRentalBook() {
-		return "/memebers/totalRentalBook";
-	}
-	@GetMapping("/calendar")
-	public String calendar() {
-		return "/memebers/calendar";
-	}
 
 	// 직원
 	@GetMapping("/userInfo")
@@ -104,8 +70,6 @@ public class HomeController {
 	public String rentalList() {
 		return "/staff/rentalList";
 	}
-	
 
-	
 
 }
