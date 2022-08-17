@@ -1,20 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@include file="../include/header.jsp" %>
+<%@include file="../../include/header.jsp" %>
 <style>
 	#pa{
 		height: 100px;
 	}
 </style>
 <section>
-	<div class="container">
+	<%-- <div class="container">
 		<div class="row">
 			<!-- myList -->
 			<div class="col-la-2 col-sm-3">
 				<jsp:include page="./fragment/boards.jsp" />
 			</div>
-			<!-- 건의사항 -->
+			<!-- 자유게시판 -->
 			<div class="col-la-7">
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
@@ -27,8 +27,15 @@
 		                                <option value="3">말머리2</option>
 		                            </select>
 			                    </div>
+			                    <div class="row">
+				                    <div class="col-la col-sm">
+				                    	<a href="#">10추</a>
+						                <a href="#">20추</a>
+						                <a href="#">30추</a>
+				                    </div>
+				                </div>   
 			                    <div class="col-la-5 col-sm-5">
-			                        <h2 class="text-center">건의사항</h2>
+			                        <h2 class="text-center">자유 게시판</h2>
 			                    </div>
 			                    <div class="col-sm- col-sm-1">
 			                        <div class="show-entries">
@@ -158,7 +165,7 @@
 			            <form>
 		                    <div class="form-row">
 		                        <div class="form-group col-lg-3 col-md-6">
-		                            <select class=" w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
+		                            <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
 		                                <option>카테고리</option>
 		                                <option value="1">카테고리1</option>
 		                                <option value="2">카테고리2</option>
@@ -189,8 +196,162 @@
 			    </div>        
 			</div>  
 		 </div>  
+	</div> --%>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="box">
+				<div class="box-header with-border">
+					<h3 class="box-title">자유 게시판</h3>
+					<div>
+						<a class="btn btn-default" href="#">HOME</a>
+						<a class="btn btn-warning" href="<c:url value='/'/>">HOME</a>
+					</div>
+				</div>
+				<div class="box-body">
+					<!-- 검색 -->
+					<!-- 한 행을 표시 -->
+					<div class="row">
+						<form id="searchForm">
+							<!-- grid 12개로 나눔 -->
+							<div class="col-md-3">
+								<select class="form-control" name="searchType">
+									<option value="n">----------------</option>
+									<option value="title">TITLE</option>
+									<option value="content">CONTENT</option>
+									<option value="writer">WRITER</option>
+									<option value="tc">TITLE &amp; CONTENT</option>
+									<option value="cw">CONTENT &amp; WRITER</option>
+									<option value="tcw">TITLE &amp; CONTENT &amp; WRITER</option>
+								</select>
+							</div>
+							<div class="col-md-3">
+								<input class="form-control" type="text" name="keyword"/>
+							</div>
+							<div class="row col-md-4">
+								<div class="col-md-6">
+									<input class="form-control btn btn-warning" type="submit" value="SEARCH"/>
+								</div>
+								<div class="col-md-6">
+									<input id="newBtn" class="form-control btn btn-primary" type="button" value="NEW"/>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<select id="pageNumSelect" class="form-control" name="perPageNum">
+									<option>00개씩 보기</option>
+									<option value="10">10개씩 보기</option>
+									<option value="15">15개씩 보기</option>
+									<option value="20">20개씩 보기</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="box-body">
+					<!-- 게시글 목록 출력 -->
+					<table class="table table-bordered">
+						<tr>
+							<td>BNO</td>
+							<td>TITLE</td>
+							<td>WRITER</td>
+							<td>REGDATE</td>
+							<td>VIEWCNT</td>
+						</tr>
+						<c:choose>
+							<c:when test="${!empty list}">
+								<jsp:useBean id="n" class="java.util.Date"/>
+								<f:formatDate var="now" value="${n}" pattern="yyyy-MM-dd"/>
+								<c:forEach var="sb" items="${list}">
+									<tr>
+										<td>${sb.bno}</td>
+										<td><a href="readPage${pm.makeQuery(pm.cri.page)}&bno=${sb.bno}">${sb.title}</a></td>
+										<td>${sb.writer}</td>
+										<td>
+											<f:formatDate var="reg" pattern="yyyy-MM-dd" value="${sb.regdate}"/>
+											<c:choose>
+												<c:when test="${now eq reg}">
+													<f:formatDate value="${sb.regdate}" pattern="HH:mm"/>
+												</c:when>
+												<c:otherwise>
+												
+												</c:otherwise>
+											</c:choose>
+										</td>
+										<td>z</td>
+									</tr>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<tr>
+									<td colspan="5">게시물이 존재하지 않습니다</td>
+								</tr>
+							</c:otherwise>
+						</c:choose>
+					</table>
+				</div>
+				<div class="box-footer">
+					<!-- 페이징 블럭 출력 -->
+					<div class="text-center">
+						<ul class="pagination">
+							<c:if test="${pm.first}">
+								<li>
+									<a href="listPage${pm.makeQuery(1)}">&laquo;&laquo;</a>
+								</li>
+							</c:if>
+							<c:if test="${pm.prev}">
+								<li>
+									<a href="listPage?${pm.makeQuery(pm.startPage-1)}">&laquo;</a>
+								</li>
+							</c:if>
+							<c:forEach var="i" begin="${pm.startPage}" end="${pm.endPage}">
+								<li ${pm.cri.page == i ? 'class=active' : ''}>
+									<a href="listPage${pm.makeQuery(i)}">${i}</a>
+								</li>
+							</c:forEach>
+							<c:if test="${pm.next}">
+								<li>
+									<a href="listPage${pm.makeQuery(pm.endPage+1)}">&raquo;</a>
+								</li>
+							</c:if>
+							<c:if test="${pm.last}">
+								<li>
+									<a href="listPage${pm.makeQuery(pm.maxPage)}">&raquo;&raquo;</a>
+								</li>
+							</c:if>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
-<%@include file="../include/footer.jsp" %>
+<%@include file="../../include/footer.jsp" %>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
