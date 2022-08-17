@@ -95,5 +95,12 @@ public class SunController {
 
 	// 최근 본 책 (side bar) ===나중에
 	// 오프라인 화면 ===나중에
+	
+	// 관리자 회원 정보 화면
+	@GetMapping("/admin/members")
+	public String memberListOfAdmin() {
+		System.out.println("CALL");
+		return "admin/members";
+	}
 
 }

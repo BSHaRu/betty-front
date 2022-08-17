@@ -31,6 +31,25 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+
+/*------ add by jaemin -----*/
+
+.row .title__align__center{
+	display: flex;
+	align-items: center;
+}
+
+.text-white-th th{
+	color: #fafafa !important;
+}
+
+.text-align-left{
+	text-align: left;
+}
+
+
+/*-----------*/
+
 html,
 body {
 	height: 100%;

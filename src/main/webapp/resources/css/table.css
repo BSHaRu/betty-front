@@ -10,6 +10,11 @@
 	vertical-align: middle;
 }
 
+.table_tr td{
+
+	vertical-align: middle;
+}
+
 .betty-table{
 	display: block;
 	width: 100%;
