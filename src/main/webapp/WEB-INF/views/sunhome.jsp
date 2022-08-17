@@ -21,18 +21,41 @@
 			| <a href="totalRentalBook">총 대여 목록</a><br/>
 	<a href="calendar">출석체크</a> <br/>
 	<br/>
-	manager<br/>
-	<a href="userInfo">회원 관리</a> <br/>
-	<a href="bookInfo">도서 관리</a> <br/>
-	<a href="rentalList">도서별 대여 현황</a> <br/>
+	
+	
+	staff<br/>
+	<a href="staff/num">직원별 회원정보</a> <br/>
+	<a href="staff/members/">회원 정보 조회</a> <br/>
+	<a href="staff/books">도서 현황</a><br/>
+	<a href="staff/rentals">도서 대여 현황 및 예약 정보</a><br/>
+	<a href="staff/books/">도서 관리</a><br/>
+	<a href="staff/books/new">도서 입고</a><br/>
+	<a href="staff/books/num">도서 폐기</a><br/>
+	<a href="staff/books/num/edit">도서 정보 수정</a><br/>
+	
+	
+	<a href="staff/">정보</a><br/>
+	<a href="staff/">정보</a><br/>
+	
 	<br/>
+	
+	<br/>
+	library<br/>
+	<a href="library/route">오시는 길</a> <br/>
+	<a href="library/time">이용시간 안내</a> <br/>
+	<a href="library/facilities">편의시설</a> <br/>
+	<a href="library/membership">멤버십 안내</a> <br/>
+	<a href="library/room">스터디룸</a> <br/>
+	
+	
+	<a href="library/time">안내</a> <br/>
+	<a href="library/time">안내</a> <br/>
+	<br/>
+	
 	board<br/>
 	<a href="freeBoard">자유게시판</a> <br/>
 	<a href="suggestions">건의사항</a> <br/>
 	<a href="notice">공지사항</a> <br/>
-  
-	<a href="library/route">오시는 길</a> <br/>
-
 	<br/>
 </h4>
 
