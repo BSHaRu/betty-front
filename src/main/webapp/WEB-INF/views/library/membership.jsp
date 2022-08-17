@@ -126,5 +126,4 @@
 </section>
 
 <%@include file="../include/footer.jsp" %>
-
 </html>
