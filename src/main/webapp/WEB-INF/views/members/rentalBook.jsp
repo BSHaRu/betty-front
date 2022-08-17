@@ -14,7 +14,7 @@
 			</div>
 			<!-- 대여 예약 -->
 			<div>
-			    <div class="table-responsive">
+			    <div class="betty-table">
 			        <div class="table-wrapper">			
 			            <div class="table-title">
 			                <div class="row">
@@ -41,7 +41,7 @@
 			                </div>
 			            </div>
 			            
-			            <table class="table table-bordered">
+			            <table class="table table-striped table-dark">
 			                <thead>
 			                    <tr>
 			                        <th>#</th>
