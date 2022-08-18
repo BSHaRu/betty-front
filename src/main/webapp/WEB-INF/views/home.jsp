@@ -54,7 +54,7 @@
 			<br/>
 		</div>
 		<div class="col-3">
-			board<br/>
+			<span>board</span><br/>
 			<a href="boards/free">자유게시판</a> <br/>
 			<a href="boards/suggest">건의사항</a> <br/>
 			<a href="boards/notice">공지사항</a> <br/>
