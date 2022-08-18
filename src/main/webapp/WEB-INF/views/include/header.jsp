@@ -63,8 +63,9 @@
                 <!-- 로고 -->
                 <div class="col-lg-1">
                     <div class="header__logo">
-                        <a href="./index.html">
-                           <img src="${path}/resources/img/logo.png" alt=""> 
+                        <a href="${path}/">
+                         	메인화면으로 이동
+                           <%-- <img src="${path}/resources/img/logo.png" alt=""> --%>	 
                         </a>
                     </div>
                 </div>

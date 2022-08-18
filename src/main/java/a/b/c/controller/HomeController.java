@@ -37,15 +37,6 @@ public class HomeController {
 		return "home";
 	}
 	
-	@GetMapping("knhhome")
-	public void knhHome() {}
-	
-	@GetMapping("sunhome")
-	public void sunHome() {}
-	
-	@GetMapping("joohome")
-	public void jooHome() {}
-
 	// book
 	@GetMapping("/bookDetails")
 	public String bookDetails() {
