@@ -23,18 +23,21 @@
 				<form>
 				
 					<div class="col-lg-8 section-title">
-						<h4>[자유게시판 등록 제목]</h4>
-						<div class="col-la-3 col-sm-3">
-			                        <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
+						<h4>[자유게시판 등록 제목]</h4> 
+						
+					</div>
+					
+					<div class="row justify-content-end">
+			                        <select class="search_input_select">
 		                                <option value="1">말머리</option>
 		                                <option value="2">말머리1</option>
 		                                <option value="3">말머리2</option>
 		                            </select>
 			                    </div>
-					</div>
 					
 					<input class="col-lg-6 form-control" type="text"
 						placeholder="제목을 작성하세요." />
+								
 						
 					<div class="col-lg-8 section-title">
 						<h4>[자유게시판 등록 내용]</h4>

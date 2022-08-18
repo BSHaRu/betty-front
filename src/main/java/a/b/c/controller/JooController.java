@@ -41,4 +41,9 @@ public class JooController {
 			return "boards/free/freeRevise";
 		}
 		
+		@GetMapping("boards/suggest/num")
+		public String suggestDetail() {
+			return "boards/suggest/suggestDetail";
+		}
+		
 }
