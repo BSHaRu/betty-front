@@ -26,6 +26,7 @@
 	staff<br/>
 	<a href="staff/num">직원별 회원정보</a> <br/>
 	<a href="staff/members/">회원 정보 조회</a> <br/>
+	<a href="staff/num/edit">회원 정보 수정</a> <br/>
 	<a href="staff/books">도서 현황</a><br/>
 	<a href="staff/rentals">도서 대여 현황 및 예약 정보</a><br/>
 	<a href="staff/books/">도서 관리</a><br/>
