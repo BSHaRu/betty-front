@@ -9,8 +9,8 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-lg-1"></div>
-			<div class="col-lg-10">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
 				<div class="row justify-content-center">
 					<div class="col-lg-8 section-title">
 						<div class="col-lg-12">
@@ -37,7 +37,7 @@
 									<div class="blog__details">
 										<div class="thumb-list-profile">
 											<img src="/c/resources/img/member/thumb_profile_male.png" />
-											<span id="font_color">닉네임</span>
+											<span class="text-white">닉네임</span>
 										</div>
 									</div>
 								</div>
@@ -82,7 +82,7 @@
 								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
 									sit amet, consectetur, adipisci velit, sed quia non numquam
 									eius modi</p>
-								<a href="#">Like</a> <a href="#">Reply</a>
+								<a href="#">답글</a> <a href="#">삭제</a>
 							</div>
 						</div>
 
@@ -97,7 +97,7 @@
 								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
 									sit amet, consectetur, adipisci velit, sed quia non numquam
 									eius modi</p>
-								<a href="#">Like</a> <a href="#">Reply</a>
+								<a href="#">답글</a> <a href="#">삭제</a>
 							</div>
 						</div>
 
@@ -111,7 +111,7 @@
 								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
 									sit amet, consectetur, adipisci velit, sed quia non numquam
 									eius modi</p>
-								<a href="#">Like</a> <a href="#">Reply</a>
+								<a href="#">답글</a> <a href="#">삭제</a>
 							</div>
 						</div>
 
@@ -131,7 +131,7 @@
 
 
 				</div>
-				<div class="col-lg-1"></div>
+				<div class="col-lg-2"></div>
 
 			</div>
 		</div>

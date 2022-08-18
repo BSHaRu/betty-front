@@ -61,7 +61,7 @@
 		  	<a href="boards/free/num">자유게시판 상세보기</a> <br/>
 		  	<a href="boards/free/new">자유게시판 등록</a> <br/>
 		  	<a href="boards/num/edit">자유게시판 수정</a> <br/>
-		  	<a href="#">건의사항 상세보기</a> <br/>
+		  	<a href="boards/suggest/num">건의사항 상세보기</a> <br/>
 		  	<a href="#">건의사항 등록</a> <br/>
 		  	<a href="#">건의사항 수정</a> <br/>
 		  	<a href="#">공지사항 상세보기</a> <br/>
