@@ -4,5 +4,10 @@
 <%@include file="../include/header.jsp" %>
 
 
+	<div class="section-title">
+			<br />
+			<h2>도서 현황</h2>
+		</div>
+
 <%@include file="../include/footer.jsp" %>
 </html>

@@ -57,6 +57,12 @@
 	<a href="suggestions">건의사항</a> <br/>
 	<a href="notice">공지사항</a> <br/>
 	<br/>
+	
+	admin
+	<br/>
+	<a href="admin/members">관리자 회원정보 확인</a>
+	<br/>
+	
 </h4>
 
 <br/>

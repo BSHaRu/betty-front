@@ -31,6 +31,7 @@
 	<a href="boards/suggest">건의사항</a> <br/>
 	<a href="boards/notice">공지사항</a> <br/>
   	<a href="boards/free/num">상세보기</a> <br/>
+  	<a href="boards/free/new">자유게시판 등록</a> <br/>
 	<a href="route">오시는 길</a> <br/>
 
 	<br/>

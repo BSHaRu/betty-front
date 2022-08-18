@@ -6,15 +6,16 @@
 	<title>Home</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	<script src="resources/ckeditor/ckeditor.js"></script>
+	
 	<script>
 		var ckeditor_config = {
-				resize_enaleb : false,
+				resize_enable : false,
 			    enterMode : CKEDITOR.ENTER_BR,
 			    shiftEnterMode : CKEDITOR.ENTER_P,
-			    filebrowserUploadUrl : "resources/ckUpload.do",
-				filebrowserUploadMethod: 'form'
+			    filebrowserUploadUrl : "resources/ckUpload.do"
 		};	
 	</script>
+	
 </head>
 <body>
 <h1>editorExam</h1>
