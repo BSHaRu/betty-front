@@ -6,10 +6,10 @@
 <!-- Signup Section Begin -->
 <section class="signup spad">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="login__form">                        
-                    <h3>Sign UP</h3>
+                <div class="join__form">                        
+                    <h3>회원가입</h3>
                     <form action="#">
                         <div class="input__item">
                             <input type="text" name="uid" placeholder="아이디를 입력 하세요" />
@@ -57,17 +57,6 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
-                <div class="login__social__links">
-                    <h3>Login With:</h3>
-                    <ul>
-                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i> Sign in With Facebook</a>
-                        </li>
-                        <li><a href="#" class="google"><i class="fa fa-google"></i> Sign in With Google</a></li>
-                        <li><a href="#" class="twitter"><i class="fa fa-twitter"></i> Sign in With Twitter</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </section>
