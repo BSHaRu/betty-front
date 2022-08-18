@@ -21,22 +21,12 @@ hr {
 </style>
 
 <div class="container">
-
 	<div class="row">
 		<div class="col-lg-12">
 			<br />
 			<div>
 				<h2>회원 리스트</h2>
 				<button type="button" class="can-btn">+ 회원 추가하기</button>
-				<p class="form-control-static">table 정보 보여주기용 section</p>
-				<div class="input-group">
-					<span class="input-group-addon"> <span
-						class="glyphicon glyphicon-user"> </span>
-					</span> <input type="text" class="form-control"> <span
-						class="input-group-btn">
-						<button class="btn btn-default" type="button">Go!</button>
-					</span>
-				</div>
 			</div>
 			<hr />
 		</div>

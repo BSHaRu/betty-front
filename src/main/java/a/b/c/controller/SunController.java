@@ -15,6 +15,13 @@ public class SunController {
 	) {
 		return "/staff/staffInfo";
 	}
+	// 직원 회원 정보 수정
+	@GetMapping("/staff/num/edit")
+	public String staffUpdate(
+			// @PathVariable int num
+			) {
+		return "/staff/staffUpdate";
+	}
 
 	// 회원정보 조회
 	@GetMapping("/staff/members/")
