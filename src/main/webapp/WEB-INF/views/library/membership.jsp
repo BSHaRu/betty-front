@@ -5,8 +5,10 @@
 <section>
 	<div class="container spad">
 		<div class="row align-items-center">
-			<table class="table">
-				<!-- <caption>멤버십 등급별 안내 항목</caption> -->
+			<div class="membership_title">
+				<h2>멤버십 등급별 안내 항목</h2>
+			</div>
+			<table class="table margin_bottom">
 				<colgroup>
 					<col style="width:180px; text-align:center">
 				</colgroup>
@@ -84,11 +86,10 @@
 				</tbody>
 			</table>
 			
-			
-			
-			
 			<!-- 참고사항 테이블 -->
-		
+			<div class="membership_title">
+				<h2>참고 사항</h2>
+			</div>
 			<table class="table">
 				<colgroup>
 					<col style="width:180px">
@@ -97,24 +98,24 @@
 					<tr class="table_tr">
 						<th class="table_th">블랙리스트</th>
 						<td>
-							블랙리스트가 되면 해당 계정은<span>영구 정지이며,</span><br/>
-							동일한 개인정보로 재가입 신청 시 <span>xx일 동안 가입 할 수 없습니다.</span>
+							블랙리스트가 되면 해당 계정은<span class="highlight_font">영구 정지이며,</span><br/>
+							동일한 개인정보로 재가입 신청 시 <span class="highlight_font">xx일 동안 가입 할 수 없습니다.</span>
 						</td>
 					</tr>
 					
 					<tr class="table_tr">
 						<th class="table_th">블랙리스트 기준</th>
 						<td>
-							반납 기간 기준 <span>1달 연체시</span><br/>
-							게시판 관련 <span>악의적인 게시시</span>관리자가 판단하에 블랙리스트 처리가 됩니다.
+							반납 기간 기준 <span class="highlight_font">1달 연체시</span><br/>
+							게시판 관련 <span class="highlight_font">악의적인 게시시</span>관리자가 판단하에 블랙리스트 처리가 됩니다.
 						</td>
 					</tr>
 					
 					<tr class="table_tr">
 						<th class="table_th">연체료 기준</th>
 						<td>
-							연체 금액은 하루에<span>500원</span>씩 올라가며,<br/>
-							연체 기간이 <span>30일 이상</span>일 경우<span>해당 책의 정가(권장 소비자가격)</span>에 해당하는 금액을 지불하셔야 됩니다.<br/>
+							연체 금액은 하루에<span class="highlight_font">500원</span>씩 올라가며,<br/>
+							연체 기간이 <span class="highlight_font">30일 이상</span>일 경우<span class="highlight_font">해당 책의 정가(권장 소비자가격)</span>에 해당하는 금액을 지불하셔야 됩니다.<br/>
 							※연체 기간이 14일 이상되면 전화 및 문자를 남겨드리며, 연체 기간이 30일 이상 넘었고, 책을 미반납 할 시 법적 책임을 질 수도 있습니다.
 						</td>
 					</tr>

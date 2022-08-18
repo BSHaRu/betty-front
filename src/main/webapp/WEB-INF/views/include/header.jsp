@@ -24,13 +24,14 @@
     <link rel="stylesheet" href="${path}/resources/css/table.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/modal.css" type="text/css">
+   	<link rel="stylesheet" href="${path}/resources/css/sidebar.css" type="text/css">
    
     <!-- Css Styles -->
     <link rel="stylesheet" href="${path}/resources/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/plyr.css" type="text/css">
-    <link rel="stylesheet" href="${path}/resources/css/nice-select.css" type="text/css">
+    <%-- <link rel="stylesheet" href="${path}/resources/css/nice-select.css" type="text/css"> --%>
     <link rel="stylesheet" href="${path}/resources/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/style.css" type="text/css">
@@ -47,9 +48,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     
 </head>
-
-<!-- jquery 추가 -->
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 <body>
     <!-- Page Preloder -->

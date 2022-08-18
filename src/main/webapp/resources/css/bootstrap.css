@@ -543,6 +543,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  transition: 0.4s;
 }
 
 @media (min-width: 576px) {
@@ -1685,7 +1686,7 @@ pre code {
 
 .table {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
   color: #212529;
   overflow: hidden;
   border-radius: 10px;
@@ -7966,6 +7967,14 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1030;
+}
+
+.fixed-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   z-index: 1030;
 }
 

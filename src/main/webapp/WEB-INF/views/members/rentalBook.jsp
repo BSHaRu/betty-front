@@ -5,41 +5,37 @@
 
 <!-- myList -->
 <%-- <%@include file="./fragment/myPage.jsp" %> --%>
+<%@include file="./fragment/myPage.jsp" %>
 				
 <section>
 	<div class="container">
-		<div class="row">
-			<div>
-				<%@include file="./fragment/myPage.jsp" %>
-			</div>
+		<div class="row justify_content">
 			<!-- 대여 예약 -->
 			<div>
-			    <div class="betty-table">
+			    <div class="betty_table">
 			        <div class="table-wrapper">			
-			            <div class="table-title">
-			                <div class="row">
-			                    <div class="col-la-3 col-sm-3">
-			                        <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
-		                                <option value="1">대여 예약</option>
-		                                <option value="2">현재 대여 중인 목록</option>
-		                                <option value="3">총 대여 목록</option>
+		                <div class="row">
+		                    <div class="col-la-3 col-sm-3">
+		                        <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
+	                                <option value="1">대여 예약</option>
+	                                <option value="2">현재 대여 중인 목록</option>
+	                                <option value="3">총 대여 목록</option>
+	                            </select>
+		                    </div>
+		                    <div class="col-la-7 col-sm-7">
+		                        <h2 class="text-center board_title">대여 예약</h2>
+		                    </div>
+		                    <div class="col-lm-1 col-sm-1">
+		                        <div class="show-entries">
+		                            <select>
+		                                <option>5</option>
+		                                <option>10</option>
+		                                <option>15</option>
+		                                <option>20</option>
 		                            </select>
-			                    </div>
-			                    <div class="col-la-7 col-sm-7">
-			                        <h2 class="text-center">대여 예약</h2>
-			                    </div>
-			                    <div class="col-lm-1 col-sm-1">
-			                        <div class="show-entries">
-			                            <select>
-			                                <option>5</option>
-			                                <option>10</option>
-			                                <option>15</option>
-			                                <option>20</option>
-			                            </select>
-			                        </div>						
-			                    </div>
-			                </div>
-			            </div>
+		                        </div>						
+		                    </div>
+		                </div>
 			            
 			            <table class="table table-striped table-dark">
 			                <thead>
