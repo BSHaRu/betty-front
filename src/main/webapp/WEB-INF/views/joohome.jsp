@@ -30,8 +30,18 @@
 	<a href="boards/free">자유게시판</a> <br/>
 	<a href="boards/suggest">건의사항</a> <br/>
 	<a href="boards/notice">공지사항</a> <br/>
-  	<a href="boards/free/num">상세보기</a> <br/>
+  	<a href="boards/free/num">자유게시판 상세보기</a> <br/>
   	<a href="boards/free/new">자유게시판 등록</a> <br/>
+  	<a href="boards/num/edit">자유게시판 수정</a> <br/>
+  	<a href="#">건의사항 상세보기</a> <br/>
+  	<a href="#">건의사항 등록</a> <br/>
+  	<a href="#">건의사항 수정</a> <br/>
+  	<a href="#">공지사항 상세보기</a> <br/>
+  	<a href="#">공지사항 등록</a> <br/>
+  	<a href="#">공지사항 수정</a> <br/>
+  	<a href="#">도서관 수익</a> <br/>
+  	<a href="#">블랙리스트</a> <br/>
+  	<a href="#">직원 정보</a> <br/>
 	<a href="route">오시는 길</a> <br/>
 
 	<br/>

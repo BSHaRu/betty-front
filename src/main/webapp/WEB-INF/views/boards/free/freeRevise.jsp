@@ -1,8 +1,7 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 
-<%@include file="../../include/header.jsp"%>
+<%@include file="../../include/header.jsp" %>
 <script src="/c/resources/ckeditor/ckeditor.js"></script>
 <script>
 	var ckeditor_config = {
@@ -23,7 +22,7 @@
 				<form>
 				
 					<div class="col-lg-8 section-title">
-						<h4>[자유게시판 등록 제목]</h4>
+						<h4>[자유게시판 수정 제목]</h4>
 						<div class="col-la-3 col-sm-3">
 			                        <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
 		                                <option value="1">말머리</option>
@@ -37,13 +36,13 @@
 						placeholder="제목을 작성하세요." />
 						
 					<div class="col-lg-8 section-title">
-						<h4>[자유게시판 등록 내용]</h4>
+						<h4>[자유게시판 수정 내용]</h4>
 					</div>
 					
 					<textarea id="editor4" class="col-6 form-control"
 						style="resize: none;" placeholder="내용을 작성하세요."></textarea>
 					<div class="normal-breadcrumb">	
-						<button type="submit" class="site-btn">등록</button>
+						<button type="submit" class="site-btn">수정</button>
 						<button type="submit" class="site-btn">취소</button>
 					</div>
 						
@@ -58,22 +57,6 @@
 	CKEDITOR.replace('editor4', ckeditor_config);
 </script>
 
-<%@include file="../../include/footer.jsp"%>
+
+<%@include file="../../include/footer.jsp" %>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
