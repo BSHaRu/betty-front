@@ -35,4 +35,10 @@ public class JooController {
 		public String freeRegist() {
 			return "boards/free/freeRegist";
 		}
+		
+		@GetMapping("/boards/num/edit")
+		public String freeRevise() {
+			return "boards/free/freeRevise";
+		}
+		
 }

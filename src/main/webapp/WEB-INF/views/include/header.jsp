@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="${path}/resources/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/pjs.css" type="text/css">
     
     <!-- fullcalendar CDN -->
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.css' />
