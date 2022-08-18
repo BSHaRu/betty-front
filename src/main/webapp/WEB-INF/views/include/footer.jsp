@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!-- Footer Section Begin -->
-<footer class="footer">
+<footer class="footer fixed-bottom">
     <div class="page-up">
         <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
     </div>
@@ -9,22 +9,20 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="footer__logo">
-                    <a href="./index.html"><img src="${path}/resources/img/logo.png" alt=""></a>
+                    <a href="${path}/"><img style="height: 25px" src="${path}/resources/img/assets/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="footer__nav">
                     <ul>
-                        <li class="active"><a href="./index.html">Homepage</a></li>
-                        <li><a href="./categories.html">Categories</a></li>
-                        <li><a href="./blog.html">Our Blog</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li class="active"><a href="${path}/">Homepage</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <div class="col-lg-3" style="margin-bottom:0.3rem">
+                <p style="font-size:0.8rem; line-height:15px"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br/> 
+                  This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 
             </div>
@@ -56,9 +54,6 @@
 <script src="${path}/resources/js/modal.js"></script>
 <script src="${path}/resources/js/sidebar.js"></script>
 
-<!-- ㅅㄱ db -->
-<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
 <script>
 	$(document).ready(function() {
 		$('#example').DataTable();
@@ -69,8 +64,6 @@
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.js'></script>  
 <!-- fullcalendar 언어 CDN -->  
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/locales-all.min.js'></script>
-
-<%-- <script src="${path}/resources/myPage/js/mypage.js"></script> --%>
 
 </body>
 

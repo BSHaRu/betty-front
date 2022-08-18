@@ -36,15 +36,15 @@ public class KnhController {
 
 
 	
-	@GetMapping("/sign/login")
+	@GetMapping("/sign/in")
 	public String login() {
 		return "sign/signIn";
 	}
-	@GetMapping("/sign/memeber")
+	@GetMapping("/sign/up/member")
 	public String signUP() {
 		return "sign/signUp";
 	}
-	@GetMapping("/sign/staff")
+	@GetMapping("/sign/up/staff")
 	public String signUp_staff() {
 		return "sign/signUp_staff";
 	}

@@ -4,6 +4,84 @@
 <%-- <jsp:include page="./include/header.jsp"/> --%>
 <%@include file="./include/header.jsp" %>
 
+<div class="container spad">
+	<div class="row justify-content-between">
+		<div class="col-3">
+			sign<br/>
+			<a href="${path}/sign/login">로그인</a> <br/>
+			<a href="${path}/sign/memeber">회원가입</a> <br/>
+			<a href="${path}/sign/staff">직원 회원가입</a> <br/>
+			<a href="${path}/sign/signUpEdit">회원 정보 수정</a> <br/>
+			<br/>
+			
+			member<br/>
+			<a href="${path}/members/fragment/myPage">내 정보</a> <br/>
+			<a href="${path}/members/num/rentals">대여 목록</a> <br/>
+			<a href="${path}/members/num/myRentalBook">현재 대여 중인 목록 리스트</a> <br/> 
+			<a href="${path}/members/num/totalRentalBook">총 대여 목록</a><br/>
+			<a href="${path}/members/num/calendar">출석체크</a> <br/>
+			<a href="${path}/members/temp">table test</a> <br/>
+			<br/>
+			
+			book<br/>
+			<a href="bookDetails">책 상세보기</a> <br/>
+			<a href="bookList">책 리스트</a> <br/>
+			<br/>
+		</div>
+		<div class="col-3">
+			staff<br/>
+			<a href="staff/num">직원별 회원정보</a> <br/>
+			<a href="staff/members/">회원 정보 조회</a> <br/>
+			<a href="staff/num/edit">회원 정보 수정</a> <br/>
+			<a href="staff/books">도서 현황</a><br/>
+			<a href="staff/rentals">도서 대여 현황 및 예약 정보</a><br/>
+			<a href="staff/books/">도서 관리</a><br/>
+			<a href="staff/books/new">도서 입고</a><br/>
+			<a href="staff/books/num">도서 폐기</a><br/>
+			<a href="staff/books/num/edit">도서 정보 수정</a><br/>
+			
+			admin<br/>
+			<a href="admin/members">관리자 회원정보 확인</a><br/>
+			
+			library<br/>
+			<a href="library/route">오시는 길</a> <br/>
+			<a href="library/time">이용시간 안내</a> <br/>
+			<a href="library/facilities">편의시설</a> <br/>
+			<a href="library/membership">멤버십 안내</a> <br/>
+			<a href="library/room">스터디룸</a> <br/>
+			<a href="library/time">안내</a> <br/>
+			<a href="library/time">안내</a> <br/>
+			<br/>
+		</div>
+		<div class="col-3">
+			<span>board</span><br/>
+			<a href="boards/free">자유게시판</a> <br/>
+			<a href="boards/suggest">건의사항</a> <br/>
+			<a href="boards/notice">공지사항</a> <br/>
+		  	<a href="boards/free/num">자유게시판 상세보기</a> <br/>
+		  	<a href="boards/free/new">자유게시판 등록</a> <br/>
+		  	<a href="boards/num/edit">자유게시판 수정</a> <br/>
+		  	<a href="boards/suggest/num">건의사항 상세보기</a> <br/>
+		  	<a href="#">건의사항 등록</a> <br/>
+		  	<a href="#">건의사항 수정</a> <br/>
+		  	<a href="#">공지사항 상세보기</a> <br/>
+		  	<a href="#">공지사항 등록</a> <br/>
+		  	<a href="#">공지사항 수정</a> <br/>
+		  	<a href="#">도서관 수익</a> <br/>
+		  	<a href="#">블랙리스트</a> <br/>
+		  	<a href="#">직원 정보</a> <br/>
+		  	
+		  	<br/>
+		  	<br/>
+		  	
+		  	<a href="edit">에디터 견본</a>
+		</div>
+	</div>
+</div>
+	
+<img class="hero__items set-bg" src="/c/resources/img/book/100/9788934986584.jpg" />
+<img class="hero__items set-bg" src="${path}/resources/img/book/800/9791158791919.jpg" />
+
 <!-- Slider Section Begin -->
 <%@include file="./include/sliderSection.jsp" %>
 <!-- Slider Section End -->

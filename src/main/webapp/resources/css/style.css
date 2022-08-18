@@ -32,25 +32,6 @@
 /*----------------------------------------*/
 
 
-/*------ add by jaemin -----*/
-
-.row .title__align__center{
-	display: flex;
-	align-items: center;
-}
-
-.text-align-left{
-	text-align: left;
-}
-
-.thumb-list-profile img{
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-}
-
-
-/*-----------*/
 
 html,
 body {
@@ -1811,38 +1792,20 @@ ol {
 -----------------------*/
 
 .login {
-	padding-top: 130px;
 	padding-bottom: 120px;
 }
 
 
 .login__form {
 	position: relative;
-	padding-left: 145px;
 }
 
-	/* 
-.login__form:after {
-	position: absolute;
-	right: -14px;
-	top: -40px;
-	height: 330px;
-	width: 1px;
-	background: rgba(255, 255, 255, 0.2);
-	content: "";
-}
- */
  
 .login__form h3 {
 	color: #fafafa;
 	font-weight: 700;
 	font-family: "Oswald", sans-serif;
 	margin-bottom: 30px;
-}
-
-/* 추가 */
-.auto_login{
-	color: #fafafa;
 }
 
 .login__form form .input__item {
@@ -1900,7 +1863,6 @@ ol {
 }
 
 .login__form form button {
-	border-radius: 0;
 	margin-top: 10px;
 }
 
@@ -2035,21 +1997,22 @@ ol {
 
 .footer {
 	background: #070720;
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-top: 15px;
+	/* fixed-bottom 먹임
 	position: relative;
+	*/ 
 }
 
 .page-up {
 	position: absolute;
-	left: 50%;
-	top: -25px;
+	right: 4rem;
+	bottom: 8rem;
 	margin-left: -25px;
 }
 
 .page-up a {
 	display: inline-block;
-	font-size: 36px;
+	font-size: 30px;
 	color: #fafafa;
 	height: 50px;
 	width: 50px;
@@ -2119,7 +2082,6 @@ ol {
 	}
 	.login__form {
 		position: relative;
-		padding-left: 32px;
 	}
 	.login__social__links ul li a {
 		width: 380px;

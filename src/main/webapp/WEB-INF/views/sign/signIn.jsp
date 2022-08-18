@@ -3,16 +3,13 @@
 
 <%@include file="../include/header.jsp" %>
 
-<%@include file="../include/leftNavBar.jsp" %>
-   	 
 <!-- 로그인 화면 윗 공간 -->
 <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="normal__breadcrumb__text">
-                    <h2>Login</h2>
-                    <p>Welcome to the official Anime blog.</p>
+                    <h2>환영합니다!</h2>
                 </div>
             </div>
         </div>
@@ -21,72 +18,46 @@
 
 
 <!-- Login Section Begin -->
-<section class="login spad ">
-    <div class="container active-cont">
-        <div class="row">
-			<!-- <nav class="navbar top-navbar navbar-light bg-light px-5">
-				<a class="btn border-0" id="menu-btn">
-					<i class="bx bx-menu"></i>
-				</a>
-			</nav>  -->  
-            <div class="col-lg-6">
-                <div class="login__form">                        
-		            <!-- 여백공간 주기 -->
-		            <h3>login</h3>    
-                    <form action="#">
-                        <div class="input__item">
-                            <input type="text" name="uid" placeholder="Email address">
-                            <span class="icon_mail"></span>
-                        </div>
-                        <div class="input__item">
-                            <input type="text" name="upw" placeholder="Password">
-                            <span class="icon_lock"></span>
-                        </div>
-                        <label class="auto_login" >
-							<input type="checkbox" name="loginCookie"/>
-							로그인 정보 저장
-						</label><br/>
-                        <!-- 버튼 크기 == input__itme 크기 -->
-                        <button type="submit" class="site-btn">로그인</button>
-                    </form>
-                    <!-- login form의 right 정렬 -->
-                   <a href="#" class="forget_pass">아이디 찾기</a>                
-                   <a href="#" class="forget_pass">비밀번호 찾기</a>
-                </div>
-            </div>
+<section class="login">
+	<div class="container-lg">
+			<div class="row justify-content-center">
+				<div class="login__form">
+					<form>
+						<div class="list-group justify-content-center">
+							<div class="input__item">
+								<input type="text" name="uid" placeholder="아이디"> <span
+									class="icon_profile"></span>
+
+							</div>
+							<div class="input__item">
+								<input type="password" name="upw" placeholder="비밀번호"> <span
+									class="icon_lock"></span>
+							</div>
+
+							<div class="form-check" style="width: 100%; text-align: center">
+								<input class="form-check-input" type="checkbox" id="loginCookie">
+								<label class="form-check-label" for="loginCookie">로그인시
+									쿠키 저장</label>
+							</div>
+
+							<!-- 버튼 크기 == input__itme 크기 -->
+							<div class="row justify-content-center">
+								<button type="submit" class="common-btn btn" style="width: 50%">로그인</button>
+							</div>
+						</div>
+					</form>
+					<!-- login form의 right 정렬 -->
+					<ul
+						class="list-group list-group-horizontal-lg justify-content-center">
+						<li class="list-group-item"><a href="">아이디 찾기</a></li>
+						<li class="list-group-item"><a href="">비밀번호 찾기</a></li>
+					</ul>
+				</div>
 		</div>
-		
-        <!-- 다른 방법으로 로그인 -->
-        <div class="login__social">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
-                    <div class="login__social__links">
-                        <span>or</span>
-                        <ul>
-                            <li>
-                            	<a href="#" class="facebook">
-                            		<i class="fa fa-facebook"></i> Sign in With Facebook
-                           		</a>
-                       		</li>
-                            <li>
-                            	<a href="#" class="google">
-                            		<i class="fa fa-google"></i> Sign in With Google
-                            	</a>
-                            </li>
-                            <li>
-                            	<a href="#" class="twitter">
-                            		<i class="fa fa-twitter"></i> Sign in With Twitter
-                            	</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	</div>
 </section>
 <!-- Login Section End -->
 
-<%@include file="../include/footer.jsp" %>
 
+<%@include file="../include/footer.jsp" %>
 </html>

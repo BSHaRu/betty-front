@@ -25,15 +25,15 @@
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/modal.css" type="text/css">
    	<link rel="stylesheet" href="${path}/resources/css/sidebar.css" type="text/css">
+   	<link rel="stylesheet" href="${path}/resources/css/betty.css" type="text/css">
    
     <!-- Css Styles -->
     <link rel="stylesheet" href="${path}/resources/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="${path}/resources/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/plyr.css" type="text/css">
-    <%-- <link rel="stylesheet" href="${path}/resources/css/nice-select.css" type="text/css"> --%>
-    <link rel="stylesheet" href="${path}/resources/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="${path}/resources/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="${path}/resources/css/slicknav.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/style.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/pjs.css" type="text/css">
     
@@ -50,95 +50,54 @@
     
 </head>
 
+ 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <!-- 로고 -->
-                <div class="col-lg-1">
-                    <div class="header__logo">
-                        <a href="${path}/">
-                         	메인화면으로 이동
-                           <%-- <img src="${path}/resources/img/logo.png" alt=""> --%>	 
-                        </a>
-                    </div>
-                </div>
-                <!-- 가운데 메뉴바 -->
-                <div class="col-lg-6">
-                    <div class="header__nav">
-                        <nav class="header__menu mobile-menu">
-                            <ul>
-                            	<!-- 검색 -->
-                                <li class="active"><a href="./index.html">검색</a>
-                                    <!-- <div class="row"> -->
-                                        <ul class="dropdown">
-                                            <li><a href="#">000 뭐시깽이</a></li>
-                                            <li><a href="#">100 뭐시깽이</a></li>
-                                            <li><a href="#">200 뭐시깽이</a></li>
-                                            <li><a href="#">300 뭐시깽이</a></li>
-                                            <li><a href="#">400 뭐시깽이</a></li>
-                                        <!-- </ul>
-                                        <ul class="dropdown">     -->
-                                            <li><a href="#">500 뭐시깽이</a></li>
-                                            <li><a href="#">600 뭐시깽이</a></li>
-                                            <li><a href="#">700 뭐시깽이</a></li>
-                                            <li><a href="#">800 뭐시깽이</a></li>
-                                            <li><a href="#">900 뭐시깽이</a></li>
-                                        </ul>
-                                    <!-- </div> -->
-                                </li>
-                                <!-- 도서관 이용 -->
-                                <li><a href="./categories.html">도서관 이용<span class="arrow_carrot-down"></span></a>
-                                    <ul class="dropdown">
-                                        <li><a href="../book/bookDetails.jsp">찾아 오시는 길</a></li>
-                                        <li><a href="./anime-watching.html">이용 시간 안내</a></li>
-                                        <li><a href="./anime-details.html">편의 시설</a></li>
-                                        <li><a href="./signup.html">회원가입</a></li>
-                                        <li><a href="./categories.html"></a></li>
-                                    </ul>
-                                </li>
-                                <!-- 회원 공간 -->
-                                <li><a href="./blog.html">회원 공간</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./anime-details.html">독서실 예약</a></li>
-                                        <li><a href="./categories.html">도서 대여 예약</a></li>
-                                        <li><a href="./anime-watching.html">미팅룸 예약(보류)</a></li>
-                                        <li><a href="./blog-details.html">이용 후기</a></li>
-                                        <li><a href="./signup.html">1:1 문의</a></li>                                        
-                                    </ul>
-                                </li>
-                                <!-- 게시판 -->
-                                <li><a href="#">게시판</a>
-                                	<ul class="dropdown">
-                                        <li><a href="./categories.html">자유 게시판</a></li>
-                                        <li><a href="./anime-details.html">건의 사항</a></li>
-                                        <li><a href="./anime-watching.html">공지 사항</a></li>
-                                        <li><a href="./blog-details.html">...</a></li>
-                                        <li><a href="./signup.html">...</a></li>                                        
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!-- 우측 회원관련 -->
-                <div class="col-lg-5">
-                    <div class="header__right">
-                        <a href="./login.html">로그인<span class="icon_profile"></span></a>
-                        <a href="./signup.html">회원 가입</a>                        
-                        <a href="#">고객센터</a>
-                    </div>
-                </div>
-            </div>
-            <div id="mobile-menu-wrap"></div>
-        </div>
-    </header>
-    <!-- Header End -->
+	<!-- Header Section Begin -->
+	<header class="header">
+		<div class="container">
 
-</body>
+			<nav class="navbar navbar-light navbar-expand-lg">
+				<!-- 로고 -->
+					<div class="col-lg-4">
+						<div class="row">
+							<div class="col-6">
+								<a href="${path}/"> 
+								<img style="height: 35px" src="${path}/resources/img/assets/logo.png" alt="main">
+								</a>
+	
+							</div>
+							<div class="col-6">
+								<%@include file="fragment/megamenu.jsp" %>
+							</div>
+						</div>
+					</div>
+						<!-- 가운데 메뉴바 -->
+						<div class="col-lg-4">
+							<nav class="nav">
+								<a class="nav-link" href="${path}/library/">도서관 소개</a> <a
+									class="nav-link" href="#">도서 목록</a> <a class="nav-link"
+									href="#">회원 공간</a>
+							</nav>
+						</div>
+						<!-- 우측 회원관련 -->
+						<div class="col-lg-2 float-right">
+							<nav class="nav float-right">
+								<a class="nav-link" href="${path}/sign/in">로그인</a> <a
+									class="nav-link" href="${path}/sign/up/member">회원가입</a>
+							</nav>
+						</div>
+						<div class="col-lg-2">
+							<nav class="nav">
+								<a class="nav-link active" href="#">KOR</a> <a
+									class="nav-link disabled" style="padding: 0.5rem 0.2rem">|</a>
+								<a class="nav-link wait" href="#">ENG</a>
+							</nav>
+						</div>
+			</nav>
+		</div>
+	</header>

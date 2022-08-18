@@ -70,6 +70,11 @@ public class SunController {
 	}
 
 //Library Convenience
+	@GetMapping("/library/")
+	public String welcome() {
+		return "/library/welcome";
+	}
+	
 	// 찾아오시는 길
 	@GetMapping("/library/route")
 	public String route() {
