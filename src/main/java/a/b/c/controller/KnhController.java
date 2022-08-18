@@ -49,9 +49,4 @@ public class KnhController {
 		return "sign/signUpEdit";
 	}
 	
-	
-	@GetMapping("/library/membership")
-	public String membershipInfo() {
-		return "library/membership";
-	}
 }

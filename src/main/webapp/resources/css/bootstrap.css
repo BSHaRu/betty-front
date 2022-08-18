@@ -415,7 +415,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 small,
@@ -2513,7 +2513,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #fafafa;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -10030,7 +10030,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #fafafa !important;
 }
 
 .text-primary {

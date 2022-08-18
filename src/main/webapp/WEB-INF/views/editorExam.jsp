@@ -6,6 +6,7 @@
 	<title>Home</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	<script src="resources/ckeditor/ckeditor.js"></script>
+	
 	<script>
 		var ckeditor_config = {
 				resize_enable : false,
@@ -14,6 +15,7 @@
 			    filebrowserUploadUrl : "resources/ckUpload.do"
 		};	
 	</script>
+	
 </head>
 <body>
 <h1>editorExam</h1>
