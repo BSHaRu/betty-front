@@ -55,6 +55,7 @@
 <script src="${path}/resources/js/main.js"></script>
 
 <script src="${path}/resources/js/modal.js"></script>
+<script src="${path}/resources/js/sidebar.js"></script>
 
 <!-- ㅅㄱ db -->
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>

@@ -1685,7 +1685,7 @@ pre code {
 
 .table {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
   color: #212529;
   overflow: hidden;
   border-radius: 10px;
@@ -7966,6 +7966,14 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1030;
+}
+
+.fixed-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   z-index: 1030;
 }
 

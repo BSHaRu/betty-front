@@ -1,4 +1,6 @@
 
+/* 공통 table? */
+
 .table_tr{
 	background : #fafafa;
 	text-align: center;
@@ -10,10 +12,34 @@
 	vertical-align: middle;
 }
 
-.betty-table{
+.margin_bottom{
+	margin-bottom: 50px !important;
+}
+
+/* 멤버십 관련 table */
+.membership_title h2{
+	color : #fafafa;
+	margin : 5px;
+	box-shadow: inset #f9320c 0 -0.5rem 0;
+}
+
+.highlight_font{
+	color : red;
+}
+
+
+/* 도서 대여 관련 table */
+.betty_table{
 	display: block;
 	width: 100%;
+	text-align: center;
 }
+
+.board_title{
+	color : #fafafa;
+}
+
+
 
 /*--------------------------------------------------------------------------------  */
 .table-responsive {

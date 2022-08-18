@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 
 <!-- MyPage List -->
-<div>
-	<nav class="nav_left">
+<div class="fixed-left">
+	<nav class="nav_left ">
 		<div class="left_menubar">
 			<div class="myPage01">
 				<ul class="myMenu01">
@@ -66,3 +66,4 @@
 		</div>
 	</nav>
 </div>
+

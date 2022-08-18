@@ -17,3 +17,13 @@
 		<button type="submit" class="btn btn-primary active w-100">검색하기</button>
 	</div>
 </div>
+
+<div class="form-row">
+	<form class="search_form">
+		<select class="search_input_select">
+			<option value="1">전체검색</option>
+		</select>
+		<input class="search_input_name" type="text"/>
+		<button class="search_input_btn" >검색</button>
+	</form>
+</div>

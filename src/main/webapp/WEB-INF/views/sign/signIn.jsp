@@ -3,6 +3,8 @@
 
 <%@include file="../include/header.jsp" %>
 
+<%@include file="../include/leftNavBar.jsp" %>
+   	 
 <!-- 로그인 화면 윗 공간 -->
 <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
     <div class="container">
@@ -17,9 +19,15 @@
     </div>
 </section>
 
+<!-- <nav class="navbar top-navbar navbar-light bg-light px-5">
+	<a class="btn border-0" id="menu-btn">
+		<i class="bx bx-menu"></i>
+	</a>
+</nav>   -->
+
 <!-- Login Section Begin -->
-<section class="login spad">
-    <div class="container">
+<section class="login spad ">
+    <div class="container active-cont">
         <div class="row">
             <div class="col-lg-6">
                 <div class="login__form">                        

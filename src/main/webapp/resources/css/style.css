@@ -31,6 +31,10 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+.justify_content{
+	justify-content: center;
+}
+
 html,
 body {
 	height: 100%;
@@ -148,6 +152,7 @@ ol {
 	padding-bottom: 100px;
 }
 
+
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -232,6 +237,8 @@ ol {
 	float: left;
 }
 
+
+
 /* Preloder */
 
 #preloder {
@@ -313,6 +320,36 @@ ol {
 	text-align: center;
 	cursor: pointer;
 }
+
+/* 추가 */
+.search_form {
+	position: relative;
+}
+
+.search_input_select {
+	float: left;
+	width : 120px;
+	height: 38px;
+	padding: 0 5px;
+}
+
+.search_input_name{
+	float: left;
+	width : 300px;
+	height: 38px;
+	padding: 0 5px;
+	border: 2px solid #999;
+}
+
+.search_input_btn {
+	float: left;
+	height: 38px;
+	padding: 0 5px;
+	border: 2px solid #999;
+}
+
+
+/* 끝 */
 
 .search-model {
 	display: none;

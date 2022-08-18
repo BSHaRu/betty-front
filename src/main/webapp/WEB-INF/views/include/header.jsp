@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="${path}/resources/css/table.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/mypage.css" type="text/css">
     <link rel="stylesheet" href="${path}/resources/css/modal.css" type="text/css">
+   	<link rel="stylesheet" href="${path}/resources/css/sidebar.css" type="text/css">
    
     <!-- Css Styles -->
     <link rel="stylesheet" href="${path}/resources/css/bootstrap.css" type="text/css">
