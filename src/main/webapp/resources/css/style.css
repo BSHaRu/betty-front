@@ -39,13 +39,18 @@
 	align-items: center;
 }
 
-.text-white-th th{
-	color: #fafafa !important;
-}
-
 .text-align-left{
 	text-align: left;
 }
+
+.thumb-list-profile img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+
+
 
 
 /*-----------*/
