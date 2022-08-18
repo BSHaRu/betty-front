@@ -354,14 +354,14 @@ ol {
 	width : 300px;
 	height: 38px;
 	padding: 0 5px;
-	border: 2px solid #999;
+	/* border: 2px solid #999; */
 }
 
 .search_input_btn {
 	float: left;
 	height: 38px;
 	padding: 0 5px;
-	border: 2px solid #999;
+	/* border: 2px solid #999; */
 }
 
 

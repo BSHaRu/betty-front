@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<div class="form-row">
+<!-- <div class="form-row">
 	<div class="form-group col-lg-3 col-md-6">
 		<select class="w-100 form-control mt-lg-1 mt-md-2">
 			<option value="1">전체 검색</option>
@@ -16,9 +16,9 @@
 	<div class="form-group col-xl-2 col-lg-3 col-md-6">
 		<button type="submit" class="btn btn-primary active w-100">검색하기</button>
 	</div>
-</div>
+</div> -->
 
-<div class="form-row">
+<div class="form-row justify-content-center">
 	<form class="search_form">
 		<select class="search_input_select">
 			<option value="1">전체검색</option>

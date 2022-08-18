@@ -18,9 +18,10 @@
 	member<br/>
 	<a href="${path }/members/fragment/myPage">내 정보</a> <br/>
 	<a href="${path }/members/num/rentals">대여 목록</a> 
-			| <a href="${path }/members/myRentalBook">현재 대여 중인 목록 리스트</a> 
-			| <a href="${path }/members/totalRentalBook">총 대여 목록</a><br/>
-	<a href="${path }/members/calendar">출석체크</a> <br/>
+			| <a href="${path }/members/num/myRentalBook">현재 대여 중인 목록 리스트</a> 
+			| <a href="${path }/members/num/totalRentalBook">총 대여 목록</a><br/>
+	<a href="${path }/members/num/calendar">출석체크</a> <br/>
+	<a href="${path }/members/temp">table test</a> <br/>
 	<br/>
 	manager<br/>
 	<a href="userInfo">회원 관리</a> <br/>

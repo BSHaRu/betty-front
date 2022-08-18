@@ -45,10 +45,9 @@
 <!-- Search model end -->
 
 <!-- Js Plugins -->
-<script src="${path}/resources/js/jquery-3.3.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="${path}/resources/js/bootstrap.min.js"></script>
 <script src="${path}/resources/js/player.js"></script>
-<script src="${path}/resources/js/jquery.nice-select.min.js"></script>
 <script src="${path}/resources/js/mixitup.min.js"></script>
 <script src="${path}/resources/js/jquery.slicknav.js"></script>
 <script src="${path}/resources/js/owl.carousel.min.js"></script>

@@ -19,16 +19,16 @@
     </div>
 </section>
 
-<!-- <nav class="navbar top-navbar navbar-light bg-light px-5">
-	<a class="btn border-0" id="menu-btn">
-		<i class="bx bx-menu"></i>
-	</a>
-</nav>   -->
 
 <!-- Login Section Begin -->
 <section class="login spad ">
     <div class="container active-cont">
         <div class="row">
+			<!-- <nav class="navbar top-navbar navbar-light bg-light px-5">
+				<a class="btn border-0" id="menu-btn">
+					<i class="bx bx-menu"></i>
+				</a>
+			</nav>  -->  
             <div class="col-lg-6">
                 <div class="login__form">                        
 		            <!-- 여백공간 주기 -->

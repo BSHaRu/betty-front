@@ -8,16 +8,14 @@
   transition: 0.5s;
 }
 
+/* 
 .nav-link:active,
 .nav-link:focus,
 .nav-link:hover {
   background-color: #ffffff26;
 }
-
-.container {
-  transition: 0.4s;
-}
-
+ */
+ 
 .active-nav {
   margin-left: 0;
 }
@@ -33,7 +31,9 @@
   margin-left: -62px;
 }
 
+/* 
 .container input {
   border-radius: 2rem;
   padding: 2px 20px;
-}
+} 
+*/

@@ -40,8 +40,8 @@
 				<ul class="myMenu02">
 					<li><a href="#">출석 체크</a></li>
 	                <li>
-	                	<a href="rentals">대여 목록</a>
-	                	| <a href="myRentalBook">현재 대여 중인 목록 리스트</a> 
+	                	<a href="rentals">대여 목록</a><br/>
+	                	| <a href="myRentalBook">현재 대여 중인 목록 리스트</a><br/> 
 						| <a href="totalRentalBook">총 대여 목록</a><br/>
 	                </li>
 	                <li><a href="#">내가 쓴 게시글 보기 [총 개수 표시]</a></li>

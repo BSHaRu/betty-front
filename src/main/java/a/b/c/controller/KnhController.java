@@ -29,6 +29,10 @@ public class KnhController {
 	public String calendar() {
 		return "/members/calendar";
 	}
+	@GetMapping("/members/temp")
+	public String temp() {
+		return "/members/temp";
+	}
 
 
 	
