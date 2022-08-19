@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<%@include file="../include/header.jsp"%>
+<%@include file="/WEB-INF/views/include/header.jsp"%>
 
 
 
 <section>
-	<div class="container-md">
+	<div class="container-lg">
 		<div class="row">
-			<div class="col-md-3" id="userInfoHeader">
+			<div class="col-lg-3" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
 				<jsp:include page="./fragment/myPage.jsp" />
 			</div>
-			<div class="col-md-7">
+			<div class="col-lg-7">
 				<h3 style="color:#fafafa">회원 관리 페이지</h3>
 				<div class="table-responsive">
 					<div class="table-wrapper">
@@ -111,5 +111,5 @@
 	</div>
 </section>
 
-<%@include file="../include/footer.jsp"%>
+<%@include file="/WEB-INF/views/include/footer.jsp"%>
 </html>

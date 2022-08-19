@@ -7986,9 +7986,17 @@ button.bg-dark:focus {
 
 .fixed-left {
   position: fixed;
-  top: 0;
+  top: 10rem;
   bottom: 0;
-  left: 2rem;
+  left: 3rem;
+  z-index: 1030;
+}
+
+.fixed-right {
+  position: fixed;
+  top: 15rem;
+  bottom: 0;
+  right: 3rem;
   z-index: 1030;
 }
 

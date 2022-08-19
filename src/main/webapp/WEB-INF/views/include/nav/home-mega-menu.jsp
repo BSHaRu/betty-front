@@ -12,7 +12,7 @@
 	<div class="dropdown-menu dropdown-menu-left"
 		aria-labelledby="servicesDropdown">
 		<div class="d-md-flex align-items-start justify-content-start"  style="text-align:center; ">
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="dropdown-header">권능환</div>
 				<br/>
 				sign
@@ -34,7 +34,7 @@
 				<a class="dropdown-item" href="${path}/bookList">책 리스트</a>
 			</div>
 			
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="dropdown-header">김선기</div>
 				<br/>
 				staff
@@ -61,7 +61,7 @@
 				<a class="dropdown-item" href="${path}/library/time">안내</a>
 			</div>
 			
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="dropdown-header">박주신</div>
 				<br/>
 				board
