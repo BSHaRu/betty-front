@@ -6,7 +6,7 @@
 <section>
 	<div class="container-lg spad">
 		<div class="row">
-			<div class="col-lg-2">
+			<div class="col-md-2">
 				<!-- side bar -->
 				<ul class="nav flex-column fixed-left">
 				  <li class="nav-item">
@@ -23,7 +23,7 @@
 				  </li>
 				</ul>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<div class="row spad"></div>
 				<div class="row spad"></div>
 				<div class="row spad"></div>
@@ -33,7 +33,7 @@
 				<div class="row spad"></div>
 				<div class="row spad"></div>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-md-2">
 			
 			</div>
 		</div>

@@ -6,14 +6,14 @@
 
 <!-- Blog Details Section Begin -->
 <section class="blog-details spad">
-	<div class="container">
+	<div class="container-md">
 		<div class="row">
 
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
 				<div class="row justify-content-center">
-					<div class="col-lg-8 section-title">
-						<div class="col-lg-12">
+					<div class="col-md-8 section-title">
+						<div class="col-md-12">
 							<div class="breadcrumb__links">
 								<a href="#"><i class="fa fa-home"></i> Home</a>
 								<a href="#">Categories</a> 
@@ -24,16 +24,16 @@
 						<h2>[자유 게시판]</h2>
 					</div>
 
-					<div class="col-lg-8 blog__details__form spad">
+					<div class="col-md-8 blog__details__form spad">
 						<form>
-							<div class="col-lg-8 section-title">
+							<div class="col-md-8 section-title">
 								<h4>[자유 게시판 제목]</h4>
 							</div>
-							<input class="col-lg-12 form-control" type="text" value="[자유 게시판 제목]"
+							<input class="col-md-12 form-control" type="text" value="[자유 게시판 제목]"
 								readonly />
 							<hr />
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-md-6">
 									<div class="blog__details">
 										<div class="thumb-list-profile">
 											<img src="/c/resources/img/member/thumb_profile_male.png" />
@@ -41,27 +41,27 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6 text-white"
+								<div class="col-md-6 text-white"
 									style="line-height: 50px; text-align: right">2050-12-10</div>
 							</div>
 							<div class="row spad">
-								<div class="col-lg-8 section-title">
+								<div class="col-md-8 section-title">
 									<h4>[자유 게시판 내용]</h4>
 								</div>
-								<textarea class="col-lg-12 form-control txtAreaLarge" style="resize: none;" 
+								<textarea class="col-md-12 form-control txtAreaLarge" style="resize: none;" 
 									readonly>[자유 게시판 내용]</textarea>
 							</div>
 						</form>
 					</div>
 
-					<div class="col-lg-8 blog__details__btns">
+					<div class="col-md-8 blog__details__btns">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-md-6">
 								<div class="blog__details__btns__item">
 									<button type="submit" class="site-btn">목록</button>
 								</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-md-6">
 								<div class="blog__details__btns__item next__btn">
 									<button type="submit" class=" site-btn">수정</button>
 								</div>
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-8 blog__details__comment">
+					<div class="col-md-8 blog__details__comment">
 						<h4>총 3개의 댓글</h4>
 
 						<div class="blog__details__comment__item">
@@ -119,7 +119,7 @@
 							<h4>댓글 작성란</h4>
 							<form action="#">
 								<div class="row" style="display: block">
-									<div class="col-lg-12">
+									<div class="col-md-12">
 										<textarea placeholder="Message"></textarea>
 										<button type="submit" class="site-btn">작성</button>
 									</div>
@@ -131,7 +131,7 @@
 
 
 				</div>
-				<div class="col-lg-2"></div>
+				<div class="col-md-2"></div>
 
 			</div>
 		</div>

@@ -15,7 +15,7 @@
 </script>
 
 <section>
-	<div class="container">
+	<div class="container-md">
 		<div class="row">
 			<div>
 				<%@include file="./fragment/myPage.jsp" %>

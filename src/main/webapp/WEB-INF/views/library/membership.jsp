@@ -3,7 +3,7 @@
 
 <%@include file="../include/header.jsp" %>
 <section>
-	<div class="container spad">
+	<div class="container-md spad">
 		<div class="row align-items-center">
 			<div class="membership_title">
 				<h2>멤버십 등급별 안내 항목</h2>
