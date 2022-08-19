@@ -67,7 +67,7 @@
 						<div class="row">
 							<div class="col-lg-6">
 								<a href="${path}/"> 
-								<img style="height: 35px" src="${path}/resources/img/assets/logo.png" alt="main">
+								<img style="height: 40px" src="${path}/resources/img/logo/betty2.png" alt="main">
 								</a>
 	
 							</div>

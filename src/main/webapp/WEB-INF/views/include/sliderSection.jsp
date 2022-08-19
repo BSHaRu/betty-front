@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero__items set-bg" data-setbg="${path}/resources/img/hero/hero-1.jpg">
+            <div class="hero__items set-bg" data-setbg="${path}/resources/img/hero/hero-2.jpg">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="hero__text">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero__items set-bg" data-setbg="${path}/resources/img/hero/hero-1.jpg">
+            <div class="hero__items set-bg" data-setbg="${path}/resources/img/hero/hero-3.jpg">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="hero__text">
