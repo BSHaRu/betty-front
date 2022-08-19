@@ -16,13 +16,13 @@
 
 
 <section class="blog-details spad">
-	<div class="container-md">
+	<div class="container-lg">
 		<div class="row d-flex justify-content-center">
 
-			<div class="col-md-8 blog__details__form spad">
+			<div class="col-lg-8 blog__details__form spad">
 				<form>
 				
-					<div class="col-md-8 section-title">
+					<div class="col-lg-8 section-title">
 						<h4>[자유게시판 등록 제목]</h4> 
 						
 					</div>
@@ -35,15 +35,15 @@
 		                            </select>
 			                    </div>
 					
-					<input class="col-md-6 form-control" type="text"
+					<input class="col-lg-6 form-control" type="text"
 						placeholder="제목을 작성하세요." />
 								
 						
-					<div class="col-md-8 section-title">
+					<div class="col-lg-8 section-title">
 						<h4>[자유게시판 등록 내용]</h4>
 					</div>
 					
-					<textarea id="editor4" class="col-md-6 form-control"
+					<textarea id="editor4" class="col-lg-6 form-control"
 						style="resize: none;" placeholder="내용을 작성하세요."></textarea>
 					<div class="normal-breadcrumb">	
 						<button type="submit" class="site-btn">등록</button>

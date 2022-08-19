@@ -4,7 +4,7 @@
 <c:set var="path" value="${pageContext.request.contextPath }"
 	scope="session" />
 
-<%@include file="../include/header.jsp"%>
+<%@include file="/WEB-INF/views/include/header.jsp"%>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 <style>
@@ -36,26 +36,26 @@
 </style>
 
 
-<div class="container-md spad">
+<div class="container-lg spad">
 	<div class="row">
-		<div class="col-md-1 text-white">nav</div>
-		<div class="col-md-10">
+		<div class="col-lg-1 text-white">nav</div>
+		<div class="col-lg-10">
 			<div class="row justify-content-center">
-				<div class="col-md-11 col-md-4" id="imgs">
+				<div class="col-lg-11 col-lg-4" id="imgs">
 					<img class="img-thumbnail" alt="..."
 						src="${path}/resources/img/member/profile_male.png" />
 					<button type="button" class="btn btn-secondary btn-lg btn-block">프로필
 						사진 변경</button>
 				</div>
-				<div class="col-md-11 col-md-7">
+				<div class="col-lg-11 col-lg-7">
 					<div class="product__page__title">
 						<div class="row">
-							<div class="col-md-8 title__align__center">
+							<div class="col-lg-8 title__align__center">
 								<div class="section-title">
 									<h4>회원 정보</h4>
 								</div>
 							</div>
-							<div class="col-md-4 anime__details__btn">
+							<div class="col-lg-4 anime__details__btn">
 								<button class="follow-btn float-right">회원 정보 수정</button>
 							</div>
 						</div>
@@ -126,11 +126,11 @@
 
 			</div>
 		</div>
-		<div class="col-md-1 text-white">nav</div>
+		<div class="col-lg-1 text-white">nav</div>
 	</div>
 
 </div>
 
 
-<%@include file="../include/footer.jsp"%>
+<%@include file="/WEB-INF/views/include/footer.jsp"%>
 </html>

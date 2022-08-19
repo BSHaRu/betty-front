@@ -11,7 +11,7 @@ public class KnhController {
 	// members
 	@GetMapping("/members/num")
 	public String myPage() {
-		return "/members/fragment/myPage";
+		return "/members/dashboard";
 	}
 	@GetMapping("/members/num/rentals")
 	public String rentalBook() {

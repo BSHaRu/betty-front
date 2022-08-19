@@ -2,14 +2,31 @@
     pageEncoding="UTF-8"%>
     
 <!-- side bar -->
-<ul class="nav flex-column fixed-left">
-  <li class="nav-item">
-    <a class="nav-link active" href="${path}/boards/notice">공지사항</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/free">자유게시판</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/suggest">건의사항</a>
-  </li>
-</ul>
+<div class="fixed-left">
+	<ul class="nav flex-column">
+	  <li class="nav-item">
+	    <a class="nav-link active" href="#">종합</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">멤버십 가입</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">대여 이력</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">고객 문의</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">내가 쓴 게시글 보기</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">내가 쓴 댓글 보기</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">회원정보 수정</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">회원 탈퇴</a>
+	  </li>
+	</ul>
+</div>

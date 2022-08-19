@@ -8,26 +8,26 @@
 	}
 </style>
 <section>
-	<div class="container-md">
+	<div class="container-lg">
 		<div class="row">
 			<!-- myList -->
-			<div class="col-md-2 col-sm-3">
+			<div class="col-lg-2 col-sm-3">
 				<jsp:include page="./fragment/boards.jsp" />
 			</div>
 			<!-- 건의사항 -->
-			<div class="col-md-7">
+			<div class="col-lg-7">
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
 			            <div class="table-title">
 			                <div class="row">
-			                    <div class="col-md-3 col-sm-3">
+			                    <div class="col-lg-3 col-sm-3">
 			                        <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
 		                                <option value="1">말머리</option>
 		                                <option value="2">말머리1</option>
 		                                <option value="3">말머리2</option>
 		                            </select>
 			                    </div>
-			                    <div class="col-md-5 col-sm-5">
+			                    <div class="col-lg-5 col-sm-5">
 			                        <h2 class="text-center">건의사항</h2>
 			                    </div>
 			                    <div class="col-sm- col-sm-1">
@@ -157,17 +157,17 @@
 			            
 			            <form>
 		                    <div class="form-row">
-		                        <div class="form-group col-md-3 col-md-6">
+		                        <div class="form-group col-lg-3 col-lg-6">
 		                            <select class=" w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
 		                                <option>카테고리</option>
 		                                <option value="1">카테고리1</option>
 		                                <option value="2">카테고리2</option>
 		                            </select>
 		                        </div>
-		                        <div class="form-group col-md-4 col-md-3 col-md-6">
+		                        <div class="form-group col-lg-4 col-lg-3 col-lg-6">
 		                            <input type="text" class="form-control my-2 my-lg-1" id="inputtext4">
 		                        </div>
-		                        <div class="form-group col-md-2 col-md-3 col-md-6">
+		                        <div class="form-group col-lg-2 col-lg-3 col-lg-6">
 		                            <button type="submit" class="btn btn-primary active w-100">검색하기</button>
 		                        </div>
 		                    </div>

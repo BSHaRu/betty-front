@@ -2,14 +2,34 @@
     pageEncoding="UTF-8"%>
     
 <!-- side bar -->
-<ul class="nav flex-column fixed-left">
-  <li class="nav-item">
-    <a class="nav-link active" href="${path}/boards/notice">공지사항</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/free">자유게시판</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/suggest">건의사항</a>
-  </li>
-</ul>
+<div class="fixed-left">
+	<ul class="nav flex-column">
+	  <li class="nav-item">
+	    <a class="nav-link active" href="${path}/books">전체</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=200">200</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=300">300</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=400">400</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=500">500</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=600">600</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=700">700</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=800">800</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/books?genre=900">900</a>
+	  </li>
+	</ul>
+</div>

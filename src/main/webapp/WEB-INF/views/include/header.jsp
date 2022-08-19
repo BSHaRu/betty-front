@@ -59,25 +59,25 @@
 
 	<!-- Header Section Begin -->
 	<header class="header">
-		<div class="container-md">
+		<div class="container-lg">
 
 			<nav class="navbar navbar-light navbar-expand-lg">
 				<!-- 로고 -->
-					<div class="col-md-3">
+					<div class="col-lg-3">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-lg-6">
 								<a href="${path}/"> 
 								<img style="height: 35px" src="${path}/resources/img/assets/logo.png" alt="main">
 								</a>
 	
 							</div>
-							<div class="col-md-6">
+							<div class="col-lg-6">
 								<%@include file="nav/home-mega-menu.jsp" %>
 							</div>
 						</div>
 					</div>
 						<!-- 가운데 메뉴바 -->
-						<div class="col-md-4">
+						<div class="col-lg-4">
 							<nav class="nav">
 								<a class="nav-link" href="${path}/library/">도서관 소개</a> <a
 									class="nav-link" href="#">도서 목록</a> <a class="nav-link"
@@ -85,13 +85,13 @@
 							</nav>
 						</div>
 						<!-- 우측 회원관련 -->
-						<div class="col-md-3 float-right">
+						<div class="col-lg-3 float-right">
 							<nav class="nav float-right">
 								<a class="nav-link" href="${path}/sign/in">로그인</a> <a
 									class="nav-link" href="${path}/sign/up/member">회원가입</a>
 							</nav>
 						</div>
-						<div class="col-md-2">
+						<div class="col-lg-2">
 							<nav class="nav">
 								<a class="nav-link active" href="#">KOR</a> <a
 									class="nav-link disabled" style="padding: 0.5rem 0.2rem">|</a>
@@ -100,4 +100,4 @@
 						</div>
 			</nav>
 		</div>
-	</header>
+</header>

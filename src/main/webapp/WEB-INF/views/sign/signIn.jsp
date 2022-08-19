@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@include file="../include/header.jsp" %>
+<%@include file="/WEB-INF/views/include/header.jsp" %>
 
 <!-- 로그인 화면 윗 공간 -->
 <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
-    <div class="container-md">
+    <div class="container-lg">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-lg-12 text-center">
                 <div class="normal__breadcrumb__text">
                     <h2>환영합니다!</h2>
                 </div>
@@ -19,7 +19,7 @@
 
 <!-- Login Section Begin -->
 <section class="login">
-	<div class="container-md">
+	<div class="container-lg">
 			<div class="row justify-content-center">
 				<div class="login__form">
 					<form>
@@ -59,5 +59,5 @@
 <!-- Login Section End -->
 
 
-<%@include file="../include/footer.jsp" %>
+<%@include file="/WEB-INF/views/include/footer.jsp" %>
 </html>

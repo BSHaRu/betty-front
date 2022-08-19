@@ -2,14 +2,16 @@
     pageEncoding="UTF-8"%>
     
 <!-- side bar -->
-<ul class="nav flex-column fixed-left">
-  <li class="nav-item">
-    <a class="nav-link active" href="${path}/boards/notice">공지사항</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/free">자유게시판</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="${path}/boards/suggest">건의사항</a>
-  </li>
-</ul>
+<div class="fixed-left">
+	<ul class="nav flex-column">
+	  <li class="nav-item">
+	    <a class="nav-link active" href="${path}/boards/notice">공지사항</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/boards/free">자유게시판</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="${path}/boards/suggest">건의사항</a>
+	  </li>
+	</ul>
+</div>

@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@include file="../include/header.jsp" %>
+<%@include file="/WEB-INF/views/include/header.jsp" %>
 
 <!-- Signup Section Begin -->
 <section class="signup spad">
-    <div class="container-md">
+    <div class="container-lg">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="join__form">                        
                     <h3>회원가입</h3>
                     <form action="#">
@@ -62,6 +62,6 @@
 </section>
 <!-- Signup Section End -->
 
-<%@include file="../include/footer.jsp" %>
+<%@include file="/WEB-INF/views/include/footer.jsp" %>
 
 </html>

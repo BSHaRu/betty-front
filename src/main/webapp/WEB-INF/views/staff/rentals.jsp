@@ -3,25 +3,25 @@
 	
 <!-- 관리자가 보는 회원 정보 화면 -->
 
-<%@include file="../include/header.jsp"%>
+<%@include file="/WEB-INF/views/include/header.jsp"%>
 
 
 <section class="product-page spad">
-	<div class="container-md">
+	<div class="container-lg">
 		<div class="row">
-		<div class="col-md-1 text-white">nav</div>
+		<div class="col-lg-1 text-white">nav</div>
 	
 		<!-- 섹션 -->
-		<div class="col-md-10">
+		<div class="col-lg-10">
 			<!-- 타이틀 부분 -->
 				<div class="product__page__title">
 					<div class="row">
-						<div class="col-md-8 col-md-8 col-sm-6 title__align__center">
+						<div class="col-lg-8 col-lg-8 col-sm-6 title__align__center">
 							<div class="section-title">
 								<h4>도서 대여현황 및 예약 정보 </h4>
 							</div>
 						</div>
-						<div class="col-md-4 col-md-4 col-sm-6 anime__details__btn">
+						<div class="col-lg-4 col-lg-4 col-sm-6 anime__details__btn">
 							<button class="follow-btn float-right"></button>
 						</div>
 					</div>
@@ -211,15 +211,15 @@
 				</table>
 				
 				
-				<!-- col-md-10 -->
+				<!-- col-lg-10 -->
 			</div>
-			<div class="col-md-1 text-white">
+			<div class="col-lg-1 text-white">
 				recently book
 			</div>
 		</div>
 		<!-- container -->
 	</div>
 </section>
-<%@include file="../include/footer.jsp"%>
+<%@include file="/WEB-INF/views/include/footer.jsp"%>
 
 </html>
