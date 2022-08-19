@@ -26,14 +26,14 @@
 </style>
 
 
-<div class="container">
+<div class="container-md">
 
 
 	<div class="row">
-		<div class="col-lg-1 text-white">nav</div>
+		<div class="col-md-1 text-white">nav</div>
 
 
-		<div class="col-lg-10">
+		<div class="col-md-10">
 			<br />
 			<div class="section-title">
 				<br />
@@ -41,21 +41,21 @@
 				<br />
 			</div>
 			<div class="row">
-				<div class="col-xs-11 col-lg-4" id="imgs">
+				<div class="col-md-11 col-md-4" id="imgs">
 					<img class="img-thumbnail" alt="..."
 						src="${path}/resources/img/member/profile_male.png" />
 					<button type="button" class="btn btn-secondary btn-lg btn-block">프로필
 						사진 변경</button>
 				</div>
-				<div class="col-xs-11 col-lg-7">
+				<div class="col-md-11 col-md-7">
 					<div class="product__page__title">
 					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-6 title__align__center">
+						<div class="col-md-8 col-md-8 col-sm-6 title__align__center">
 							<div class="section-title">
 								<h4>회원 정보</h4>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 anime__details__btn">
+						<div class="col-md-4 col-md-4 col-sm-6 anime__details__btn">
 							<button class="follow-btn float-right">+ 회원 등록</button>
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 					</div>
 
 				</div>
-				<div class="col-10">
+				<div class="col-md-10">
 					<div class="section-title">
 						<br /> <br />
 						<h4>뭐시깽이 : ㅁㄴㅇㄹ</h4>
@@ -104,7 +104,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-1 text-white">nav</div>
+		<div class="col-md-1 text-white">nav</div>
 	</div>
 
 </div>

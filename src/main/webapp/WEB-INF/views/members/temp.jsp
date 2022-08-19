@@ -7,10 +7,10 @@
 <%@include file="./fragment/myPage.jsp" %>
 
 <section>
-	<div class="container spad">
+	<div class="container-md spad">
 				<!-- 자유게시판 -->
 		<div class="row justify-content-center">
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<div class="section-title mb-0">
 					<h4 class="text-white">자유 게시판</h4>
 				</div>
@@ -18,7 +18,7 @@
 			    <div class="table-responsive">
 			        <div class="table-wrapper">			
 		                <div class="row justify-content-between">
-		                    <div class="col-10">
+		                    <div class="col-md-10">
 	                   			<div class="product__item__text text-white">
 	                    			<ul>
 		                    			<li><a href="#">전체</a></li>
@@ -28,7 +28,7 @@
 	                    			</ul>
 				                </div>
 		                    </div>
-		                    <div class="col-1 pl-0 d-flex align-items-center">
+		                    <div class="col-md-1 pl-0 d-flex align-items-center">
 	                            <select>
 	                                <option>5</option>
 	                                <option>10</option>

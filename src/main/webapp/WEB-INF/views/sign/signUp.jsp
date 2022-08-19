@@ -5,9 +5,9 @@
 
 <!-- Signup Section Begin -->
 <section class="signup spad">
-    <div class="container">
+    <div class="container-md">
         <div class="row justify-content-center">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="join__form">                        
                     <h3>회원가입</h3>
                     <form action="#">

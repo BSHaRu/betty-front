@@ -42,7 +42,7 @@
  -->
 <section>
 	<form action="#" method="get">
-		<div id="justify-content" class="container">
+		<div id="justify-content" class="container-md">
 			<br />
 
 			<div class="row justify-content-center">
@@ -52,7 +52,7 @@
 			</div>
 			<br /> <br />
 			<div class="row justify-content-center">
-				<input class="col-6 form-control" type="text" id="title" readonly />
+				<input class="col-md-6 form-control" type="text" id="title" readonly />
 			</div>
 			<br /> <br /> <br />
 			<div class="row justify-content-center">
@@ -62,7 +62,7 @@
 			</div>
 			<br /> <br />
 			<div class="row justify-content-center">
-				<textarea id="content" rows="15" class="col-6 form-control"
+				<textarea id="content" rows="15" class="col-md-6 form-control"
 					style="resize: none;" readonly></textarea>
 			</div>
 			
