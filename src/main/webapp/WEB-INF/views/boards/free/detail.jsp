@@ -5,12 +5,24 @@
 <script src="/c/resources/ckeditor/ckeditor.js"></script>
 
 <!-- Blog Details Section Begin -->
-<section class="blog-details spad">
+<section>
 	<div class="container-lg">
 		<div class="row">
-
+		<div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                        <a href="./categories.html">Categories</a>
+                        <span>Romance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
+			<div class="col-lg-10">
 				<div class="row justify-content-center">
 					<div class="col-lg-8 section-title">
 						<div class="col-lg-12">

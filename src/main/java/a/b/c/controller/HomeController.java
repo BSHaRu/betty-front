@@ -38,11 +38,11 @@ public class HomeController {
 	}
 	
 	// book
-	@GetMapping("/bookDetails")
+	@GetMapping("/books/num")
 	public String bookDetails() {
 		return "books/bookDetails";
 	}
-	@GetMapping("/bookList")
+	@GetMapping("/books/")
 	public String bookList() {
 		return "books/bookList";
 	}
