@@ -40,6 +40,11 @@
 	<div class="row">
 		<div class="col-lg-1 text-white">nav</div>
 		<div class="col-lg-10">
+		<div class="section-title">
+				<br />
+				<h4>직원 정보 업데이트</h4>
+				<br />
+			</div>
 			<div class="row justify-content-center">
 				<div class="col-lg-11 col-lg-4" id="imgs">
 					<img class="img-thumbnail" alt="..."

@@ -25,7 +25,6 @@
 }
 </style>
 
-
 <div class="container-lg">
 
 
@@ -88,7 +87,6 @@
 						</ul>
 						<br />
 					</div>
-
 				</div>
 				<div class="col-lg-10">
 					<div class="section-title">
