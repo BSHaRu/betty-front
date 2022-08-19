@@ -80,8 +80,8 @@
 						<div class="col-lg-4">
 							<nav class="nav">
 								<a class="nav-link" href="${path}/library/">도서관 소개</a> <a
-									class="nav-link" href="#">도서 목록</a> <a class="nav-link"
-									href="#">회원 공간</a>
+									class="nav-link" href="${path}/books/">도서 목록</a> 
+									<a class="nav-link" href="${path}/members/num">회원 공간</a>
 							</nav>
 						</div>
 						<!-- 우측 회원관련 -->
