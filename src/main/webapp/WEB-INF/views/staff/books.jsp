@@ -24,22 +24,22 @@
 </style>
 
 <section>
-	<div class="container-lg">
+	<div class="container-md">
 		<div class="row">
-			<div class="col-lg-2">
+			<div class="col-md-2">
 				<%@include file="/WEB-INF/views/include/nav/staff-side-nav.jsp"%>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<!-- 섹션 -->
 				<!-- 타이틀 부분 -->
 				<div class="product__page__title">
 					<div class="row">
-						<div class="col-lg-8 col-lg-8 col-sm-6 title__align__center">
+						<div class="col-md-8 col-md-8 col-md-6 title__align__center">
 							<div class="section-title">
 								<h4>도서 현황</h4>
 							</div>
 						</div>
-						<div class="col-lg-4 col-lg-4 col-sm-6 anime__details__btn">
+						<div class="col-md-4 col-md-4 col-md-6 anime__details__btn">
 							<button class="follow-btn float-right">&#10009; 도서 등록</button>
 						</div>
 					</div>
@@ -248,11 +248,11 @@
 					</tr>
 					<!-- 1블럭 -->
 				</table>
-				<!-- col-lg-10 -->
+				<!-- col-md-10 -->
 			</div>
 
 		</div>
-		<div class="col-lg-2">
+		<div class="col-md-2">
 			<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp"%>
 		</div>
 	</div>

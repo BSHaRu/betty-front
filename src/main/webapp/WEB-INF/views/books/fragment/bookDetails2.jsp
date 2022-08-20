@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <div class="row">
-	<div class="col-lg-8 col-lg-8">
+	<div class="col-md-8 col-md-8">
 		<!-- 댓글 -->
 		<div class="anime__details__review">
 			<div class="section-title">
@@ -80,7 +80,7 @@
 	</div>
 
 	<!-- 최근에 본 책 리스트 -->
-	<div class="col-lg-4 col-lg-4">
+	<div class="col-md-4 col-md-4">
 		<%@include file="../cookieBookList.jsp" %>
 	</div>
 </div>

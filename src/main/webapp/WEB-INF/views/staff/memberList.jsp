@@ -20,9 +20,9 @@ hr {
 }
 </style>
 
-<div class="container-lg">
+<div class="container-md">
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-md-12">
 			<br />
 			<div>
 				<h2>회원 리스트</h2>
@@ -34,7 +34,7 @@ hr {
 			<br />
 			<h5>리스트 정보 삽입예시</h5>
 		</div>
-		<div class="col-lg-12">
+		<div class="col-md-12">
 			<img alt="..." src="${path}/resources/img/seongi/member.png">
 		</div>
 	</div>

@@ -4,10 +4,10 @@
 <%@include file="/WEB-INF/views/include/header.jsp"%>
 
 <section class="signup spad">
-	<div class="container-lg">
+	<div class="container-md">
 		<div class="row justify-content-center">
 
-			<div class="col-lg-auto">
+			<div class="col-md-auto">
 				<div class="login__form">
 					<h3>회원가입</h3>
 					<form action="#">

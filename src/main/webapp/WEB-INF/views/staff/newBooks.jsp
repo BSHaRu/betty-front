@@ -36,33 +36,33 @@
 </style>
 
 <section>
-	<div class="container-lg spad">
+	<div class="container-md spad">
 		<div class="row">
-			<div class="col-lg-2">
+			<div class="col-md-2">
 				<%@include file="/WEB-INF/views/include/nav/staff-side-nav.jsp"%>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<div class="section-title">
 					<br />
 					<h4>도서 입고</h4>
 					<br />
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-lg-11 col-lg-4" id="imgs">
+					<div class="col-md-11 col-md-4" id="imgs">
 						<img class="img-thumbnail" alt="..."
 							src="${path}/resources/img/book/100/9788935213344.jpg" />
-						<button type="button" class="btn btn-secondary btn-lg btn-block">
+						<button type="button" class="btn btn-secondary btn-md btn-block">
 							책 표지 삽입</button>
 					</div>
-					<div class="col-lg-11 col-lg-7 spad">
+					<div class="col-md-11 col-md-7 spad">
 						<div class="product__page__title">
 							<div class="row">
-								<div class="col-lg-8 title__align__center">
+								<div class="col-md-8 title__align__center">
 									<div class="section-title">
 										<h4>입고도서 정보</h4>
 									</div>
 								</div>
-								<div class="col-lg-4 anime__details__btn">
+								<div class="col-md-4 anime__details__btn">
 									<button type="submit" class="follow-btn float-right">작성 완료</button>
 								</div>
 							</div>
@@ -118,7 +118,7 @@
 
 				</div>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-md-2">
 				<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp"%>
 			</div>
 

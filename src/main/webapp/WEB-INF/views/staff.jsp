@@ -4,9 +4,9 @@
 <%-- <jsp:include page="./include/header.jsp"/> --%>
 <%@include file="./include/header.jsp" %>
 
-<div class="container-lg spad">
+<div class="container-md spad">
 	<div class="row justify-content-between">
-		<div class="col-lg-3">
+		<div class="col-md-3">
 			sign<br/>
 			<a href="${path}/sign/login">로그인</a> <br/>
 			<a href="${path}/sign/memeber">회원가입</a> <br/>
@@ -28,7 +28,7 @@
 			<a href="bookList">책 리스트</a> <br/>
 			<br/>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-md-3">
 			staff<br/>
 			<a href="staff/num">직원별 회원정보</a> <br/>
 			<a href="staff/members/">회원 정보 조회</a> <br/>
@@ -53,7 +53,7 @@
 			<a href="library/time">안내</a> <br/>
 			<br/>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-md-3">
 			<span>board</span><br/>
 			<a href="boards/free">자유게시판</a> <br/>
 			<a href="boards/suggest">건의사항</a> <br/>
@@ -88,27 +88,27 @@
 
 <!-- 검색 -->
 <div class="advance-search">
-    <div class="container-lg">
+    <div class="container-md">
         <div class="row justify-content-center">
-            <div class="col-lg-12 col-lg-12 align-content-center">
+            <div class="col-md-12 col-md-12 align-content-center">
                 <form>
                     <div class="form-row">
-                        <div class="form-group col-lg-3 col-lg-6">
-                            <select class="w-100 form-control mt-lg-1 mt-md-2" style="display: none;">
+                        <div class="form-group col-md-3 col-md-6">
+                            <select class="w-100 form-control mt-md-1 mt-md-2" style="display: none;">
                                 <option>-----------------</option>
                                 <option value="1">책 제목</option>
                                 <option value="2">저자</option>
                             </select>
-                            <!-- <div class="nice-select w-100 form-control mt-lg-1 mt-md-2" tabindex="0"><span class="current">Category</span><ul class="list"><li data-value="Category" class="option selected">Category</li><li data-value="1" class="option">Top rated</li><li data-value="2" class="option">Lowest Price</li><li data-value="4" class="option">Highest Price</li></ul></div> -->
+                            <!-- <div class="nice-select w-100 form-control mt-md-1 mt-md-2" tabindex="0"><span class="current">Category</span><ul class="list"><li data-value="Category" class="option selected">Category</li><li data-value="1" class="option">Top rated</li><li data-value="2" class="option">Lowest Price</li><li data-value="4" class="option">Highest Price</li></ul></div> -->
                         </div>
                         
-                        <div class="form-group col-lg-4 col-lg-3 col-lg-6">
-                            <input type="text" class="form-control my-2 my-lg-1" id="inputtext4" placeholder="어떤 책을 찾으시나요?">
+                        <div class="form-group col-md-4 col-md-3 col-md-6">
+                            <input type="text" class="form-control my-2 my-md-1" id="inputtext4" placeholder="어떤 책을 찾으시나요?">
                         </div>
-                        <div class="form-group col-lg-2 col-lg-3 col-lg-6">
+                        <div class="form-group col-md-2 col-md-3 col-md-6">
                             <button type="submit" class="btn btn-primary active w-100">검색하기</button>
                         </div>
-                        <div class="form-group col-lg-3 col-lg-6">
+                        <div class="form-group col-md-3 col-md-6">
                             <button type="button" class="btn btn-primary active w-100" id="modal_btn">상세 검색</button>
                             <div id="modal">
 	                            <div class="modal_view">
@@ -116,13 +116,13 @@
 	                            	<h2><b>상세검색</b></h2><br/><br/>
 	                            	
 	                                <p>제목</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-md-1" name="title" > <br/>
 	                                <p>저자</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-md-1" name="title" > <br/>
 	                                <p>출판사</p>
-	                                <input type="text" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <input type="text" class="form-control my-2 my-md-1" name="title" > <br/>
 	                                <p>출간일</p>
-	                                <input type="date" class="form-control my-2 my-lg-1" name="title" > <br/>
+	                                <input type="date" class="form-control my-2 my-md-1" name="title" > <br/>
 	                                <button type="button" class="sel-btn">검색</button>
 	                                <button type="button" class="can-btn">취소</button>
 	                            </div>
@@ -137,25 +137,25 @@
 
  <!-- Product Section Begin -->
  <section class="product spad">
-     <div class="container-lg">
+     <div class="container-md">
          <div class="row">
-             <div class="col-lg-8">
+             <div class="col-md-8">
                  <!-- 인기 도서 -->
                  <div class="trending__product">
                      <div class="row">
-                         <div class="col-lg-8 col-lg-8 col-sm-8">
+                         <div class="col-md-8 col-md-8 col-md-8">
                              <div class="section-title">
                                  <h4>인기 도서</h4>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-4 col-sm-4">
+                         <div class="col-md-4 col-md-4 col-md-4">
                              <div class="btn__all">
                                  <a href="#" class="primary-btn">더보기 <span class="arrow_right"></span></a>
                              </div>
                          </div>
                      </div>
                      <div class="row">
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="${path }/resources/img/book/800/9791158791919.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -172,7 +172,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/book/100/9788934986584.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -189,7 +189,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/book/100/9788934986584.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -206,7 +206,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/trending/trend-4.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -223,7 +223,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/trending/trend-5.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -241,7 +241,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/trending/trend-6.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -263,19 +263,19 @@
                  <!-- 추천 도서 -->
                  <div class="popular__product">
                      <div class="row">
-                         <div class="col-lg-8 col-lg-8 col-sm-8">
+                         <div class="col-md-8 col-md-8 col-md-8">
                              <div class="section-title">
                                  <h4>추천 도서</h4>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-4 col-sm-4">
+                         <div class="col-md-4 col-md-4 col-md-4">
                              <div class="btn__all">
                                  <a href="#" class="primary-btn">더 보기 <span class="arrow_right"></span></a>
                              </div>
                          </div>
                      </div>
                      <div class="row">
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/popular/popular-1.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -291,7 +291,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/popular/popular-2.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -307,7 +307,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/popular/popular-3.jpg">
                                      <!-- <div class="ep">18 / 18</div> -->
@@ -328,19 +328,19 @@
                  <!-- 최신 도서 -->
                  <div class="recent__product">
                      <div class="row">
-                         <div class="col-lg-8 col-lg-8 col-sm-8">
+                         <div class="col-md-8 col-md-8 col-md-8">
                              <div class="section-title">
                                  <h4>최신 도서</h4>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-4 col-sm-4">
+                         <div class="col-md-4 col-md-4 col-md-4">
                              <div class="btn__all">
                                  <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
                              </div>
                          </div>
                      </div>
                      <div class="row">
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/recent/recent-1.jpg">
                                      <div class="ep">18 / 18</div>
@@ -356,7 +356,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/recent/recent-2.jpg">
                                      <div class="ep">18 / 18</div>
@@ -372,7 +372,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="col-lg-4 col-lg-6 col-sm-6">
+                         <div class="col-md-4 col-md-6 col-md-6">
                              <div class="product__item">
                                  <div class="product__item__pic set-bg" data-setbg="img/recent/recent-3.jpg">
                                      <div class="ep">18 / 18</div>
@@ -393,7 +393,7 @@
              </div>
              
              <!-- 우측 사이드 -->
-             <div class="col-lg-4 col-lg-6 col-sm-8">
+             <div class="col-md-4 col-md-6 col-md-8">
                  <!-- 이달의 인기책 -->
                  <div class="product__sidebar">
                      <div class="product__sidebar__view">

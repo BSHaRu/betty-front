@@ -27,3 +27,8 @@ anime 에서 적당히 js 낀 기능 가져와서 나열
 차라리 카드 형식의 데이터로 모두 교체하고 자세히 보기 모달을 켜도됨
 사진을 미리 출력하고, 모든 데이터를 출력하기보단 모달에 전달하자.
 
+인터셉터 이용해서
+String uri = request.getRequestURI();
+if(uri.contains("members")){
+	request.setAttrribute("nav","members");
+}
