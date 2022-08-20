@@ -198,6 +198,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 12px 30px;
+	margin-right: 1rem;  
 }
 
 /* 추가 */
@@ -532,6 +533,9 @@ ol {
 .hero__text {
 	position: relative;
 	z-index: 9;
+	background-color: rgba(121, 121, 121, 0.3);
+	padding: 0.3rem 2rem 0.3rem 2rem;
+	border-radius: 2rem;
 }
 
 .hero__text .label {

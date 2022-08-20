@@ -4,18 +4,14 @@
 <%@include file="/WEB-INF/views/include/header.jsp"%>
 
 <section>
-	<div class="container-lg">
-		<div class="row">
-			<div class="col-lg-2">
-				<%@include file="/WEB-INF/views/include/nav/member-side-nav.jsp"%>
+	<div class="container-md spad">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-md-4 dash-item">회원 정보 간략</div>
+				<div class="col-md-4 dash-item">출석 현황</div>
+				<div class="w-100"></div>
+				<div class="col-md-4 dash-item">대여 현황</div>
+				<div class="col-md-4 dash-item">이메일 상담</div>
 			</div>
-
-			<div class="col-lg-8">
-			</div>
-			<div class="col-lg-2">
-				<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp"%>
-			</div>
-
 		</div>
 	</div>
 </section>

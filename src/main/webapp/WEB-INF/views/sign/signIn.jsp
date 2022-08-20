@@ -5,9 +5,9 @@
 
 <!-- 로그인 화면 윗 공간 -->
 <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
-    <div class="container-lg">
+    <div class="container-md">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-md-12 text-center">
                 <div class="normal__breadcrumb__text">
                     <h2>환영합니다!</h2>
                 </div>
@@ -19,7 +19,7 @@
 
 <!-- Login Section Begin -->
 <section class="login">
-	<div class="container-lg">
+	<div class="container-md">
 			<div class="row justify-content-center">
 				<div class="login__form">
 					<form>
@@ -48,7 +48,7 @@
 					</form>
 					<!-- login form의 right 정렬 -->
 					<ul
-						class="list-group list-group-horizontal-lg justify-content-center">
+						class="list-group list-group-horizontal-md justify-content-center">
 						<li class="list-group-item"><a href="">아이디 찾기</a></li>
 						<li class="list-group-item"><a href="">비밀번호 찾기</a></li>
 					</ul>

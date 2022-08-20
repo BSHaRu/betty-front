@@ -5,9 +5,9 @@
 
 <!-- Breadcrumb Begin -->
 <div class="breadcrumb-option">
-    <div class="container-lg">
+    <div class="container-md">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <div class="breadcrumb__links">
                     <a href="./index.html"><i class="fa fa-home"></i> Home</a>
                     <a href="./categories.html">카테고리(소설)</a>
@@ -22,10 +22,10 @@
 
 <!-- BookDetails Section Begin -->
 <section class="anime-details spad">
-    <div class="container-lg">
+    <div class="container-md">
         <div class="anime__details__content">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-md-3">
                     <div class="anime__details__pic set-bg" data-setbg="img.jpg">
                         <!-- 
                         <div class="comment"><i class="fa fa-comments"></i> 댓글</div>
@@ -33,7 +33,7 @@
                         -->
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-md-9">
                     <div class="anime__details__text">
                         <div class="anime__details__title">
                             <h3>책 제목</h3>
@@ -56,7 +56,7 @@
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure earum debitis tempora repudiandae tenetur. Ullam, minima. Reiciendis nihil quisquam deleniti. Ducimus, quasi velit. Impedit quidem modi eaque asperiores cupiditate vitae.</p>
                         <div class="anime__details__widget">
                             <div class="row">
-                                <div class="col-lg-6 col-lg-6">
+                                <div class="col-md-6 col-md-6">
                                     <ul>
                                         <li><span>장르:</span> 소설</li>
                                         <li><span>작가:</span> 무라카미 하루키</li>
@@ -64,7 +64,7 @@
                                         <li><span>출판사:</span> 문학동네 </li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-6 col-lg-6">
+                                <div class="col-md-6 col-md-6">
                                     <ul>
                                         <li><span>쪽수:</span> 721쪽</li>
                                         <li><span>무게:</span> 516g</li>
