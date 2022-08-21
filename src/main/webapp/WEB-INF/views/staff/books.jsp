@@ -21,6 +21,7 @@
 .genreSel {
 	max-width: 100px;
 }
+
 </style>
 
 <section>
@@ -112,7 +113,7 @@
 					<tr class="text-center">
 						<td>번호</td>
 						<td>책 표지</td>
-						<td style="width: 130px">도서명</td>
+						<td style="min-width: 130px">도서명</td>
 						<td>ISBN</td>
 						<td>작가</td>
 						<td>출판사</td>
@@ -129,16 +130,16 @@
 					</tr>
 					<!-- 3 -->
 					<tr>
-						<td style="width: 130px">출판일</td>
-						<td style="width: 130px">장르</td>
-						<td style="width: 130px">보유 권수</td>
-						<td style="width: 130px">기타</td>
+						<td style="min-width: 130px">출판일</td>
+						<td style="min-width: 130px">장르</td>
+						<td style="min-width: 130px">보유 권수</td>
+						<td style="min-width: 130px">기타</td>
 					</tr>
 					<!-- 4 -->
 					<tr>
 						<td>{pub_date}</td>
 						<td>{genre}</td>
-						<td>{보유권수}</td>
+						<td>{보유권수} / <input type="button" value="수정" id="{ISBN**}"/></td>
 						<td>{기타 넣을거}</td>
 					</tr>
 					<!-- 1블럭 -->
