@@ -7,7 +7,6 @@
 	<div class="container-md spad">
 		<div class="row">
 			<div class="col-md-2">
-				<%--<%@include file="/WEB-INF/views/include/nav/admin-side-nav.jsp" %> --%>
 			</div>
 			<div class="col-md-8 justify-content-center">
 					세계에 단 하나뿐인 Betty.
@@ -20,7 +19,6 @@
 					<%@include file="/WEB-INF/views/library/fragment/library-route.jsp" %>
 			</div>
 			<div class="col-md-2">
-				<%-- <%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp" %>--%>
 			</div>
 		</div>
 	</div>
