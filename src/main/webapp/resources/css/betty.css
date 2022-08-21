@@ -159,3 +159,48 @@
 .text-black {
 	color: black;
 }
+
+
+.sub-title {
+	display: inline-block;
+	color: #fafafa;
+	font-size: 1.2rem;
+	font-family: "Mulish", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding: 0.2rem 1rem;
+	background-color: #3d3d3d;
+	text-decoration: none;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.side-nav-back {
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 1rem;
+	text-align: center;
+	padding: 1rem 0 0.5rem 0;
+}
+
+.board-detail {
+	background-color: transparent !important;
+	border: none !important;
+	color: #fafafa;
+	margin-bottom: 0.5rem;
+	position: relative;
+}
+
+.board-detail.board-title {
+	font-size: 2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Mulish", sans-serif;
+}
+
+.board-detail.board-content {
+	margin-top: 3rem;
+	font-size: 1rem;
+	font-family: "Oswald", sans-serif;
+	width: 100%;
+	overflow: visible;
+	resize: none;
+}

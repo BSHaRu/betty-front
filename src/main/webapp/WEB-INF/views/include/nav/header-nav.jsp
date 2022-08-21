@@ -25,8 +25,8 @@
 								<a class="nav-link" href="${path}/library/">도서관 소개</a> 
 								<a class="nav-link" href="${path}/books/">도서 목록</a> 
 								<a class="nav-link" href="${path}/members/num">회원 공간</a>
+								<a class="nav-link" href="${path}/boards/notice/">게시판</a>
 								<a class="nav-link" href="${path}/staff/">직원</a>
-								<!-- 관리자나 직원 둘 중 하나 사라지면 네비 정렬 정상 -->
 								<a class="nav-link" href="${path}/admin/">관리자</a>
 							</nav>
 						</div>
@@ -58,6 +58,8 @@ String uri = request.getRequestURI();
 		request.setAttribute("leftNav", "staff");
 	} else if (uri.contains("views/admin")){
 		request.setAttribute("leftNav", "admin");
+	} else if (uri.contains("views/board")){
+		request.setAttribute("leftNav", "board");
 	} else {
 		request.setAttribute("leftNav", "");
 	}
@@ -71,6 +73,9 @@ String uri = request.getRequestURI();
 	</c:when>
 	<c:when test="${leftNav eq 'admin'}">
 		<%@include file="/WEB-INF/views/include/nav/admin-side-nav.jsp"%>
+	</c:when>
+	<c:when test="${leftNav eq 'board'}">
+		<%@include file="/WEB-INF/views/include/nav/board-side-nav.jsp"%>
 	</c:when>
 	<c:otherwise>
 	</c:otherwise>

@@ -3,9 +3,9 @@
     
 <!-- side bar -->
 <div class="fixed-left">
-	<ul class="nav flex-column">
+	<ul class="nav flex-column side-nav-back">
 	   <li class="nav-item">
-	    <a class="nav-link active" href="#">마이페이지</a>
+	    <a class="nav-link disabled" href="#">마이페이지</a>
 	  </li>
 	  <li class="nav-item">
 	    <a class="nav-link" href="#">대시보드</a>
@@ -14,10 +14,7 @@
 	    <a class="nav-link" href="#">멤버십 가입</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="#">대여 이력</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" href="#">고객 문의</a>
+	    <a class="nav-link" href="${path}/members/num">대여 이력</a>
 	  </li>
 	  <li class="nav-item">
 	    <a class="nav-link" href="#">내가 쓴 게시글 보기</a>
