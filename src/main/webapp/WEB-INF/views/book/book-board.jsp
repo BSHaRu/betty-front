@@ -50,7 +50,6 @@
 			
 			<div class="col-md-2">
 				<!-- 최근에 클릭 한 책 리스트 -->
-				<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp" %>
 			</div>
 		</div>
 	</div>
