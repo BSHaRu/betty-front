@@ -9,14 +9,16 @@
 			<div class="col-md-2">
 			</div>
 			<div class="col-md-8 justify-content-center">
+				<div>
 					세계에 단 하나뿐인 Betty.
 					<br/>
 					그곳으로 당신을 초대합니다.
-					<%@include file="/WEB-INF/views/library/fragment/library-use-time.jsp" %>
-					<%@include file="/WEB-INF/views/library/fragment/library-facility.jsp" %>
-					<%@include file="/WEB-INF/views/library/fragment/library-room.jsp" %>
-					<%@include file="/WEB-INF/views/library/fragment/library-membership.jsp" %>
-					<%@include file="/WEB-INF/views/library/fragment/library-route.jsp" %>
+				</div>
+				<%@include file="/WEB-INF/views/library/fragment/library-use-time.jsp" %>
+				<%@include file="/WEB-INF/views/library/fragment/library-facility.jsp" %>
+				<%@include file="/WEB-INF/views/library/fragment/library-room.jsp" %>
+				<%@include file="/WEB-INF/views/library/fragment/library-membership.jsp" %>
+				<%@include file="/WEB-INF/views/library/fragment/library-route.jsp" %>
 			</div>
 			<div class="col-md-2">
 			</div>
