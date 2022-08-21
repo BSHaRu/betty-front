@@ -39,15 +39,21 @@
 							<input type="number" name="phone" placeholder="01012345678" /> <span><i
 								class="bi bi-phone"></i></span>
 						</div>
-						<div class="input__item">
-							<input type="email" name="email" placeholder="이메일을 입력하세요" /> <span
-								class="icon_mail"></span>
+						<div class="input-group">
+							<div class="input__item">
+								<input type="email" name="email" placeholder="이메일을 입력하세요" /> <span
+									class="icon_mail"> </span>
+							</div>
+							<div class="input-group-append">
+								<button class="btn btn-outline-secondary" type="button"
+									id="inputGroupFileAddon04">Button</button>
+							</div>
 						</div>
 
-							<div class="btn-group justify-content-center">
+						<div class="btn-group justify-content-center">
 							<button type="submit" class="site-btn">가입 하기</button>
 							<button type="button" class="cancel-btn">취소</button>
-							</div>
+						</div>
 				</div>
 				</form>
 			</div>

@@ -29,7 +29,6 @@
 	<div class="container-md">
 		<div class="row">
 			<div class="col-md-2">
-				<%@include file="/WEB-INF/views/include/nav/staff-side-nav.jsp"%>
 			</div>
 			<div class="col-md-8">
 				<!-- 섹션 -->
@@ -255,7 +254,6 @@
 
 		</div>
 		<div class="col-md-2">
-			<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp"%>
 		</div>
 	</div>
 </section>

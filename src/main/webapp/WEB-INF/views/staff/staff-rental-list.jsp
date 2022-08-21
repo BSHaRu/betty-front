@@ -29,7 +29,6 @@
 	<div class="container-lg">
 		<div class="row">
 			<div class="col-lg-2">
-				<%@include file="/WEB-INF/views/include/nav/staff-side-nav.jsp"%>
 			</div>
 			<div class="col-lg-8">
 				<!-- 섹션 -->
