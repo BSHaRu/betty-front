@@ -52,7 +52,7 @@
 							  </div>
 							  	<div class="row justify-content-center">
            					   	 <button type="submit" class="btn btn-outline-primary mr-2">검색</button>
-                   	       		<button type="button" class="btn btn-outline-dark">취소</button>
+                   	       		<button id="cancel-button" class="btn btn-outline-dark">취소</button>
                     	       </div>
                             
                            </form>
