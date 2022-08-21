@@ -1,12 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@include file="/WEB-INF/views/include/header.jsp" %>
-
-<section>
-	<div class="container-lg spad">
+	<div class="container-md spad">
 		<div class="row">
-			<div class="col-lg-10 flex-column align-items-center">
+			<div class="flex-column align-items-center">
 				<div class="membership_title">
 					<h2>도서관 이용 시간 안내</h2>
 				</div>
@@ -54,12 +51,5 @@
 				<h6 class="text-white">※스터디 룸은 도서관 휴무일과 별개로 <span class="highlight_font">365일 운영</span> 합니다.</h6>
 			</div>
 		</div>
-		<div class="col-lg-2">
-			<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp" %>
-		</div>
 	</div>
-</section>
-
-
-<%@include file="/WEB-INF/views/include/footer.jsp" %>
 </html>

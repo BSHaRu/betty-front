@@ -4,9 +4,9 @@
 <%@include file="/WEB-INF/views/include/header.jsp" %>
 
 <section class="signup spad">
-    <div class="container-lg">
+    <div class="container-md">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <div class="login__form">                        
                     <h3>회원 정보 수정</h3>
                     <form action="#">

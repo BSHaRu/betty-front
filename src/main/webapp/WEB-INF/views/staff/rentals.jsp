@@ -33,15 +33,17 @@
 			<div class="col-lg-8">
 				<!-- 섹션 -->
 				<!-- 타이틀 부분 -->
+
 				<div class="product__page__title">
 					<div class="row">
-						<div class="col-lg-8 col-lg-8 col-sm-6 title__align__center">
+						<div class="col-md-8 col-md-8 col-md-6 title__align__center">
 							<div class="section-title">
 								<h4>대여 현황 및 예약 정보</h4>
 							</div>
 						</div>
 						<div class="col-lg-4 col-lg-4 col-sm-6 anime__details__btn">
 							<button class="follow-btn float-right"> 회원 리스트 </button>
+
 						</div>
 					</div>
 				</div>
@@ -224,7 +226,6 @@
 
 		</div>
 		<div class="col-lg-2">
-			<%@include file="/WEB-INF/views/include/nav/right-side-nav.jsp"%>
 		</div>
 	</div>
 </section>

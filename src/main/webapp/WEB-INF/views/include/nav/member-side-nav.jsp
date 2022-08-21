@@ -4,8 +4,11 @@
 <!-- side bar -->
 <div class="fixed-left">
 	<ul class="nav flex-column">
+	   <li class="nav-item">
+	    <a class="nav-link active" href="#">마이페이지</a>
+	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link active" href="#">종합</a>
+	    <a class="nav-link" href="#">대시보드</a>
 	  </li>
 	  <li class="nav-item">
 	    <a class="nav-link" href="#">멤버십 가입</a>

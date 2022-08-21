@@ -4,31 +4,31 @@
 <%@include file="/WEB-INF/views/include/header.jsp"%>
 
 <section>
-	<div class="container-lg">
+	<div class="container-md">
 		<div class="row">
-			<div class="col-lg-2">
+			<div class="col-md-2">
 				<%@include file="/WEB-INF/views/include/nav/member-side-nav.jsp"%>
 			</div>
 
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<div class="row justify_content">
 					<!-- 대여 예약 -->
 					<div>
 						<div class="betty_table">
 							<div class="table-wrapper">
 								<div class="row">
-									<div class="col-lg-3 col-sm-3">
-										<select class="w-100 form-control mt-lg-1 mt-md-2"
+									<div class="col-md-3 col-md-3">
+										<select class="w-100 form-control mt-md-1 mt-md-2"
 											style="display: none;">
 											<option value="1">대여 예약</option>
 											<option value="2">현재 대여 중인 목록</option>
 											<option value="3">총 대여 목록</option>
 										</select>
 									</div>
-									<div class="col-lg-7 col-sm-7">
+									<div class="col-md-7 col-md-7">
 										<h2 class="text-center board_title">대여 예약</h2>
 									</div>
-									<div class="col-lm-1 col-sm-1">
+									<div class="col-lm-1 col-md-1">
 										<div class="show-entries">
 											<select>
 												<option>5</option>
@@ -152,7 +152,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2">null</div>
+			<div class="col-md-2">null</div>
 
 		</div>
 	</div>

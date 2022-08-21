@@ -625,8 +625,7 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
 }
 
 .col {
@@ -3007,6 +3006,8 @@ fieldset:disabled a.btn {
 .btn-outline-danger {
   color: #dc3545;
   border-color: #dc3545;
+  background-color: #fafafa;
+
 }
 
 .btn-outline-danger:hover {
@@ -7985,18 +7986,18 @@ button.bg-dark:focus {
 
 .fixed-left {
   position: fixed;
-  top: 10rem;
+  top: 17rem;
   bottom: 0;
-  left: 3rem;
-  z-index: 1030;
+  left: 2rem;
+  z-index: 4;
 }
 
 .fixed-right {
   position: fixed;
-  top: 15rem;
+  top: 17rem;
   bottom: 0;
-  right: 3rem;
-  z-index: 1030;
+  right: 2rem;
+  z-index: 4;
 }
 
 .fixed-bottom {
@@ -8004,7 +8005,7 @@ button.bg-dark:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 5;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {

@@ -4,13 +4,13 @@
 <%@include file="/WEB-INF/views/include/header.jsp"%>
 
 <section>
-	<div class="container-lg">
+	<div class="container-md">
 		<div class="row">
-			<div class="col-lg-2" id="userInfoHeader">
+			<div class="col-md-2" id="userInfoHeader">
 				<!-- 사이드바 들어가는 공간 -->
 				<%-- <jsp:include page="./fragment/myPage.jsp" /> --%>
 			</div>
-			<div class="col-lg-7">
+			<div class="col-md-7">
 				<h3 style="color: #fafafa">도서별 대여 현황 페이지</h3>
 				<div class="table-responsive">
 					<div class="table-wrapper">

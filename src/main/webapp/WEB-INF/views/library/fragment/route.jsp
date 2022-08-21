@@ -1,15 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<%@include file="/WEB-INF/views/include/header.jsp"%>
-
-<section>
-	<div class="container-lg">
+	<div class="container-md">
 		<div class="row">
-			<div class="col-lg-3" id="userInfoHeader">
-				<!-- 사이드바 들어가는 공간 -->
-			</div>
-			<div class="col-lg-7 center-block">
+			<div class="col-md-8 center-block">
 				<!-- 오시는 길 (지도, 로드뷰)-->
 				<!-- 도메인이 로컬 호스트로 되어있습니다, 사이트 도메인이 생성되면 사이트주소에맞게 키 를 새로 발급받아야 함. -->
 				<h1 style="text-align: center;color: #fafafa">오시는 길</h1><br/>
@@ -23,11 +17,9 @@
 					src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d2d627d342f7e95fdb4c15682d4ebc7c"></script>
 
 				<h3 style="color: #fafafa">부산 동래구 충렬대로 84 영남빌딩 9층</h3>
-				<br> <br>
 			</div>
 		</div>
 	</div>
-</section>
 <script>
 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div -map
 	mapOption = {
@@ -84,5 +76,4 @@
 	});
 </script>
 
-<%@include file="/WEB-INF/views/include/footer.jsp"%>
 </html>

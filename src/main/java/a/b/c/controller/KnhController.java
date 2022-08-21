@@ -11,27 +11,27 @@ public class KnhController {
 	// members
 	@GetMapping("/members/num")
 	public String myPage() {
-		return "/members/dashboard";
+		return "members/dashboard";
 	}
 	@GetMapping("/members/num/rentals")
 	public String rentalBook() {
-		return "/members/rentalBook";
+		return "members/rentalBook";
 	}
 	@GetMapping("/members/num/myRentalBook")
 	public String myRentalBook() {
-		return "/members/myRentalBook";
+		return "members/myRentalBook";
 	}
 	@GetMapping("/members/num/totalRentalBook")
 	public String totalRentalBook() {
-		return "/members/totalRentalBook";
+		return "members/totalRentalBook";
 	}
 	@GetMapping("/members/num/calendar")
 	public String calendar() {
-		return "/members/calendar";
+		return "members/calendar";
 	}
 	@GetMapping("/members/temp")
 	public String temp() {
-		return "/members/temp";
+		return "members/temp";
 	}
 
 
