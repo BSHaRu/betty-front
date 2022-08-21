@@ -5,7 +5,7 @@
 <%@include file="/WEB-INF/views/include/header.jsp" %>
 
 <!-- Slider Section Begin -->
-<%@include file="/WEB-INF/views/include/sliderSection.jsp" %>
+<%@include file="/WEB-INF/views/include/section-slider.jsp" %>
 <!-- Slider Section End -->
 
 <!-- 검색 -->

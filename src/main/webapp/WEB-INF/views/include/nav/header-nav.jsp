@@ -52,7 +52,7 @@
 
 <% 
 String uri = request.getRequestURI();
-	if(uri.contains("views/members")){
+	if(uri.contains("views/member")){
 		request.setAttribute("leftNav", "member"); 
 	} else if (uri.contains("views/staff")){
 		request.setAttribute("leftNav", "staff");
