@@ -8,6 +8,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class SunController {
 
 //Manager-Management
+	
+	@GetMapping("/staff/")
+	public String staffMain() {
+		return "staff/staff-main";
+	}
+	
 	// 직원 회원 정보
 	@GetMapping("/staff/num")
 	public String staffInfo(
@@ -108,8 +114,18 @@ public class SunController {
 	// 최근 본 책 (side bar) ===나중에
 	// 오프라인 화면 ===나중에
 	
+	@GetMapping("/admin/")
+	public String adminMain() {
+		return "admin/admin-main";
+	}
+	
+	@GetMapping("/admin/profit")
+	public String adminProfit() {
+		return "admin/admin-profit";
+	}
+	
 	// 관리자 회원 정보 화면
-	@GetMapping("/admin/members")
+	@GetMapping("/admin/members/")
 	public String memberListOfAdmin() {
 		System.out.println("CALL");
 		return "admin/members";

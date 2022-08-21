@@ -17,7 +17,7 @@ btnModal.addEventListener("click", e => {
     modalOn()
 })
 
-const closeBtn = modal.querySelector(".close-area" || ".can-btn")
+const closeBtn = modal.querySelector(".close-area" || "#cancel-button")
 closeBtn.addEventListener("click", e => {
     modalOff()
 })
