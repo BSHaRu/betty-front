@@ -13,20 +13,14 @@ public class StaffController {
 		return "staff/staff-main";
 	}
 	
-	@GetMapping("members")
-	public String staffMemberList() {
-		return "staff/staff-member-list";
-	}
-	
 	@GetMapping("num")
 	public String userInfo() {
 		return "staff/staff-info";
 	}
 	
-	// 직원 회원 정보
-	@GetMapping("num2")
+	@GetMapping("members")
 	public String staffInfo() {
-		return "staff/userinfo";
+		return "staff/staff-member-list";
 	}
 	
 	// 직원 회원 정보 수정
@@ -40,29 +34,19 @@ public class StaffController {
 		return "staff/staff-book-list";
 	}
 	
-	@GetMapping("books2")
-	public String bookInfo2() {
-		return "staff/staff-book-list2";
-	}
-	
 	@GetMapping("books/new")
 	public String newBooks() {
 		return "staff/staff-book-new";
 	}
 	
-	@GetMapping("staff/books/num/edit")
+	@GetMapping("books/num/edit")
 	public String updateBooks() {
-		return "staff/staff-book/edit";
+		return "staff/staff-book-edit";
 	}
 	
 	@GetMapping("rentals")
 	public String rentalList() {
 		return "staff/staff-rental-list";
-	}
-	
-	@GetMapping("rentals2")
-	public String rentalList2() {
-		return "staff/staff-rental-list2";
 	}
 	
 }

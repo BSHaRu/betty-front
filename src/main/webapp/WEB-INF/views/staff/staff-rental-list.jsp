@@ -1,28 +1,50 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	
-<!-- 관리자가 보는 회원 정보 화면 -->
 
 <%@include file="/WEB-INF/views/include/header.jsp"%>
 
+<style>
+#blackTable {
+	border-spacing: 2px;
+	border-collapse: separate;
+}
 
-<section class="product-page spad">
-	<div class="container-md">
+#blackTable tr td {
+	min-width: 50px;
+	font-size: medium;
+}
+
+#blackTable tr td:first-child {
+	max-width: 50px;
+}
+
+.genreSel {
+	max-width: 100px;
+}
+
+</style>
+
+<section>
+	<div class="container-lg">
 		<div class="row">
-		<div class="col-md-1 text-white">nav</div>
-	
-		<!-- 섹션 -->
-		<div class="col-md-10">
-			<!-- 타이틀 부분 -->
+			<div class="col-lg-2">
+				<%@include file="/WEB-INF/views/include/nav/staff-side-nav.jsp"%>
+			</div>
+			<div class="col-lg-8">
+				<!-- 섹션 -->
+				<!-- 타이틀 부분 -->
+
 				<div class="product__page__title">
 					<div class="row">
 						<div class="col-md-8 col-md-8 col-md-6 title__align__center">
 							<div class="section-title">
-								<h4>도서 대여현황 및 예약 정보 </h4>
+								<h4>대여 현황 및 예약 정보</h4>
 							</div>
 						</div>
-						<div class="col-md-4 col-md-4 col-md-6 anime__details__btn">
-							<button class="follow-btn float-right"></button>
+						<div class="col-lg-4 col-lg-4 col-sm-6 anime__details__btn">
+							<button class="follow-btn float-right"> 회원 리스트 </button>
+
 						</div>
 					</div>
 				</div>
@@ -32,194 +54,182 @@
 						<table class="table-detail-search">
 							<!-- 1행 -->
 							<tr>
-								<th>가입승인</th>
-								<td class="text-align-left" colspan="3">
-									<input type='radio' name='가입승인' id="전체" checked/> 
-									<label for="전체">전체</label> 
-									<input type='radio' name='가입승인' value='승인'/>승인 
-									<input type='radio' name='가입승인' value='미승인'/>미승인
+								<th>ISBN 범위지정(교체 가능)</th>
+								<td class="text-align-left " colspan="3">
+									<div class="input-group mb-3">
+										<select class="custom-select" id="inputGroupSelect02">
+											<option selected>ISBN 범위 등등...</option>
+											<option id="ISBN1**">ISBN100~</option>
+											<option id="ISBN2**">ISBN200~</option>
+											<option id="ISBN3**">ISBN300~</option>
+											<option id="ISBN4**">ISBN400~</option>
+											<option id="ISBN5**">ISBN500~</option>
+											<option id="ISBN6**">ISBN600~</option>
+										</select>
+
+									</div>
 								</td>
 							</tr>
-
 							<!-- 2행 -->
 							<tr>
-								<th>회원구분</th>
-								<td class="text-align-left">
-									<input type='radio' name='회원구분' value='전체' checked/>전체 
-									<input type='radio' name='회원구분' value='일반회원'/>일반회원
-									<input type='radio' name='회원구분' value='직원'/>직원
-								</td>
+								<th>대여 여부</th>
+								<td class="text-align-left"><input type='radio' name='대여여부'
+									value='전체' checked />전체 <input type='radio' name='대여여부'
+									value='대여중' />대여중인 도서<input type='radio' name='대여여부' value='예약중' />예약
+									중인 도서</td>
 							</tr>
 
 							<!-- 3행 -->
 							<tr>
-								<th>회원등급</th>
+								<th>입고 날짜 별</th>
+
 								<td>
-									<div class="product__page__filter float-left">
-										<select style="display: none;">
-											<option value="">등급</option>
-											<option value="일반">일반</option>
-											<option value="유료">유료</option>
-											<option value="VIP">VIP</option>
-										</select>
-										<div class="nice-select" tabindex="0">
-											<span class="current">전체</span>
-											<ul class="list">
-												<li data-value class="option selected focus">전체</li>
-												<li data-value class="option">일반</li>
-												<li data-value class="option">유료</li>
-												<li data-value class="option">VIP</li>
-											</ul>
+									<div class="input-group">
+										<input type="date" id="dateSel" />
+										<div class="input-group-append">
+											<!-- <label class="input-group-text" for="dateSel">입고일 선택</label> -->
 										</div>
 									</div>
 								</td>
 							</tr>
-
 							<!-- 4행 -->
 							<tr>
-								<th>검색어</th>
-								<td>
-								<select name="">
-										<option value="">키워드</option>
-										<option value="">아이디</option>
-										<option value="">이름</option>
-										<option value="">주소</option>
+								<th>검색</th>
+								<td><select class="keywordSelect">
+								<!-- 뭐가 선택된건지 어떻게 구별하지? -->
+										<option value="">키워드 선택</option>
+										<option value="title">도서명</option>
+										<option value="auth">작가</option>
+										<option value="pub">출판사</option>
 								</select> <input class="float-left" /></td>
 							</tr>
-							
+
 							<tr>
-								<th colspan="4">
-									<a href="">상세 검색</a>
-								</th>
+								<th colspan="4"><a href="">상세 검색</a></th>
 							</tr>
-							
+
 						</table>
 					</div>
 				</form>
 
 				<!-- table -->
-				<table class="table-data-list table-striped table-dark">
+				<table id="blackTable"
+					class="table-data-list table-striped table-dark">
+					<!-- 1블럭 -->
 					<!-- 1 -->
 					<tr class="text-center">
 						<td>번호</td>
-						<td>회원사진</td>
-						<td>아이디</td>
-						<td>닉네임</td>
-						<td>이름</td>
-						<td>성별</td>
-						<td>생년월일</td>
-						<td>전화번호</td>
-						<td>이메일</td>
-						<td colspan="2">주소</td>
+						<td>책 표지</td>
+						<td style="width: 130px">도서명</td>
+						<td>ISBN</td>
+						<td>작가</td>
+						<td>출판사</td>
 					</tr>
-										
 					<!-- 2 -->
 					<tr>
 						<td rowspan="3">1</td>
-						<td rowspan="3" class="thumb-list-profile">
-							<img src="/c/resources/img/member/thumb_profile_male.png"/>
-						</td>
-						<td>namu6747</td>
-						<td>namu6747</td>
-						<td>박재민</td>
-						<td>남</td>
-						<td>960205</td>
-						<td>01056556747</td>
-						<td>namu6747@naver.com</td>
-						<td colspan="2">부산시 금정구 남산동 1234-5</td>
+						<td class="책 이미지" style="max-width: 135px" rowspan="3"><img
+							src="${path}/resources/img/book/100/9788935213344.jpg" /></td>
+						<td>{title}</td>
+						<td>{code}</td>
+						<td>{auth}</td>
+						<td>{pub}</td>
 					</tr>
-					
 					<!-- 3 -->
 					<tr>
-						<td>회원구분</td>
-						<td>회원등급</td>
-						<td>포인트</td>
-						<td>대여권수</td>
-						<td>대여횟수</td>
-						<td>체크인여부</td>
-						<td>회원가입일</td>
-						<td>가입승인</td>
-						<td>블랙리스트</td>
+						<td style="width: 130px">총 소장 권수(같은 이름의 책) / 현재 보유 권수</td>
+						<td style="width: 130px">대여여부</td>
+						<td style="width: 130px">대여자</td>
+						<td style="width: 130px">반납예정일</td>
 					</tr>
-					
 					<!-- 4 -->
 					<tr>
-						<td>일반</td>
-						<td>VIP</td>
-						<td>30000</td>
-						<td>2</td>
-						<td>8</td>
-						<td>OK</td>
-						<td>2022-08-18</td>
-						<td>OK</td>
-						<td>NO</td>
+						<td>{소장 권수} / {보유권수}</td>
+						<td>{대여여부나 대여중인 권수}</td>
+						<td>{대여자}</td>
+						<td>{반남 예정일}</td>
 					</tr>
-					
+					<!-- 1블럭 -->
+					<!-- 1블럭 -->
 					<!-- 1 -->
 					<tr class="text-center">
 						<td>번호</td>
-						<td>회원사진</td>
-						<td>아이디</td>
-						<td>닉네임</td>
-						<td>이름</td>
-						<td>성별</td>
-						<td>생년월일</td>
-						<td>전화번호</td>
-						<td>이메일</td>
-						<td colspan="2">주소</td>
+						<td>책 표지</td>
+						<td style="width: 130px">도서명</td>
+						<td>ISBN</td>
+						<td>작가</td>
+						<td>출판사</td>
 					</tr>
-					
 					<!-- 2 -->
 					<tr>
 						<td rowspan="3">1</td>
-						<td rowspan="3" class="thumb-list-profile">
-							<img src="/c/resources/img/member/thumb_profile_male.png"/>
-						</td>
-						<td>namu6747</td>
-						<td>namu6747</td>
-						<td>박재민</td>
-						<td>남</td>
-						<td>960205</td>
-						<td>01056556747</td>
-						<td>namu6747@naver.com</td>
-						<td colspan="2">부산시 금정구 남산동 1234-5</td>
+						<td class="책 이미지" style="max-width: 135px" rowspan="3"><img
+							src="${path}/resources/img/book/100/9791190826556.jpg" /></td>
+						<td>{title}</td>
+						<td>{code}</td>
+						<td>{auth}</td>
+						<td>{pub}</td>
 					</tr>
 					<!-- 3 -->
 					<tr>
-						<td>회원구분</td>
-						<td>회원등급</td>
-						<td>포인트</td>
-						<td>대여권수</td>
-						<td>대여횟수</td>
-						<td>체크인여부</td>
-						<td>회원가입일</td>
-						<td>가입승인</td>
-						<td>블랙리스트</td>
+						<td style="width: 130px">총 소장 권수(같은 이름의 책) / 현재 보유 권수</td>
+						<td style="width: 130px">대여여부</td>
+						<td style="width: 130px">대여자</td>
+						<td style="width: 130px">반납예정일</td>
 					</tr>
 					<!-- 4 -->
 					<tr>
-						<td>일반</td>
-						<td>VIP</td>
-						<td>30000</td>
-						<td>2</td>
-						<td>8</td>
-						<td>OK</td>
-						<td>2022-08-18</td>
-						<td>OK</td>
-						<td>NO</td>
+						<td>{소장 권수} / {보유권수}</td>
+						<td>{대여여부나 대여중인 권수}</td>
+						<td>{대여자}</td>
+						<td>{반남 예정일}</td>
 					</tr>
+					<!-- 1블럭 -->
+					<!-- 1블럭 -->
+					<!-- 1 -->
+					<tr class="text-center">
+						<td>번호</td>
+						<td>책 표지</td>
+						<td style="width: 130px">도서명</td>
+						<td>ISBN</td>
+						<td>작가</td>
+						<td>출판사</td>
+					</tr>
+					<!-- 2 -->
+					<tr>
+						<td rowspan="3">1</td>
+						<td class="책 이미지" style="max-width: 135px" rowspan="3"><img
+							src="${path}/resources/img/book/400/9788983711892.jpg" /></td>
+						<td>{title}</td>
+						<td>{code}</td>
+						<td>{auth}</td>
+						<td>{pub}</td>
+					</tr>
+					<!-- 3 -->
+					<tr>
+						<td style="width: 130px">총 소장 권수(같은 이름의 책) / 현재 보유 권수</td>
+						<td style="width: 130px">대여여부</td>
+						<td style="width: 130px">대여자</td>
+						<td style="width: 130px">반납예정일</td>
+					</tr>
+					<!-- 4 -->
+					<tr>
+						<td>{소장 권수} / {보유권수}</td>
+						<td>{대여여부나 대여중인 권수}</td>
+						<td>{대여자}</td>
+						<td>{반남 예정일}</td>
+					</tr>
+					<!-- 1블럭 -->
+					
 				</table>
-				
-				
-				<!-- col-md-10 -->
+				<!-- col-lg-10 -->
 			</div>
-			<div class="col-md-1 text-white">
-				recently book
-			</div>
+
 		</div>
-		<!-- container -->
+		<div class="col-lg-2">
+		</div>
 	</div>
 </section>
 <%@include file="/WEB-INF/views/include/footer.jsp"%>
-
 </html>
+

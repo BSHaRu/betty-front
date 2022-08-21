@@ -27,15 +27,10 @@
 				<a class="dropdown-item" href="${path}/members/num">대시보드</a>
 				<a class="dropdown-item" href="${path}/members/num/edit">회원 정보 수정</a>
 				
-				<a class="dropdown-item" href="${path}/members/zone">확인 필요(마이페이지)</a>
-				
 				<a class="dropdown-item" href="${path}/members/num/rentals">대여 목록</a> 
-				<a class="dropdown-item" href="${path}/members/num/rentals2">대여 목록2</a> 
-				<a class="dropdown-item" href="${path}/members/num/rentals3">대여 목록3</a>
 				
 				<a class="dropdown-item" href="${path}/members/num/calendar">출석체크</a>
 				
-				<a class="dropdown-item" href="${path}/members/temp">table test</a>
 				<br/>
 				
 				book 
@@ -50,17 +45,15 @@
 				<a class="dropdown-item" href="${path}/staff/">직원 영역</a>
 				<a class="dropdown-item" href="${path}/staff/members/">회원 정보 조회</a>
 				<a class="dropdown-item" href="${path}/staff/num">직원 회원정보</a>
-				<a class="dropdown-item" href="${path}/staff/num2">직원 회원정보2</a>
 				
 				<a class="dropdown-item" href="${path}/staff/num/edit">회원 정보 수정</a>
 				
 				<a class="dropdown-item" href="${path}/staff/books">도서 현황</a>
-				<a class="dropdown-item" href="${path}/staff/books2">도서 현황2</a>
+				
 				<a class="dropdown-item" href="${path}/staff/books/new">도서 입고</a>
 				<a class="dropdown-item" href="${path}/staff/books/num/edit">도서 정보 수정</a>
 				
 				<a class="dropdown-item" href="${path}/staff/rentals">도서 대여 현황 및 예약 정보</a>
-				<a class="dropdown-item" href="${path}/staff/rentals2">도서 대여 현황 및 예약 정보2</a>
 
 				<br/>
 				admin
