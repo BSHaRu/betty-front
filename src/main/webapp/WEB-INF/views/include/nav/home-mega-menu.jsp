@@ -24,7 +24,7 @@
 				
 				member
 				
-				<a class="dropdown-item" href="${path}/members/num">대시보드</a>
+				<a class="dropdown-item" href="${path}/members/num/">대시보드</a>
 				<a class="dropdown-item" href="${path}/members/num/edit">회원 정보 수정</a>
 				
 				<a class="dropdown-item" href="${path}/members/num/rentals">대여 목록</a> 
@@ -67,9 +67,9 @@
 				<div class="dropdown-header">박주신</div>
 				<br/>
 				board
-				<a class="dropdown-item" href="${path}/boards/free">자유게시판</a> 
-				<a class="dropdown-item" href="${path}/boards/suggest">건의사항</a> 
-				<a class="dropdown-item" href="${path}/boards/notice">공지사항</a> 
+				<a class="dropdown-item" href="${path}/boards/free/">자유게시판</a> 
+				<a class="dropdown-item" href="${path}/boards/suggest/">건의사항</a> 
+				<a class="dropdown-item" href="${path}/boards/notice/">공지사항</a> 
 			  	<a class="dropdown-item" href="${path}/boards/free/num">자유게시판 상세보기</a> 
 			  	<a class="dropdown-item" href="${path}/boards/free/new">자유게시판 등록</a> 
 			  	<a class="dropdown-item" href="${path}/boards/free/num/edit">자유게시판 수정</a> 

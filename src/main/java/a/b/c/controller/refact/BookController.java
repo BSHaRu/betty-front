@@ -10,12 +10,12 @@ public class BookController {
 
 	@GetMapping
 	public String bookDetails() {
-		return "books/book-board";
+		return "book/book-board";
 	}
 	
 	@GetMapping("num")
 	public String bookList() {
-		return "books/book-detail";
+		return "book/book-detail";
 	}
 	
 }

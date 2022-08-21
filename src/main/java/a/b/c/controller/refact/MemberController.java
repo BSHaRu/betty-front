@@ -5,26 +5,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/members/")
+@RequestMapping("/members/num/")
 public class MemberController {
 
-	// members
-	@GetMapping("num")
+	@GetMapping
 	public String memberDashboard() {
 		return "member/member-dashboard";
 	}
 	
-	@GetMapping("num/edit")
+	@GetMapping("edit")
 	public String memberEdit() {
 		return "member/member-edit";
 	}
 	
-	@GetMapping("num/rentals")
+	@GetMapping("rentals")
 	public String memberRendal() {
 		return "member/member-rental-list";
 	}
 	
-	@GetMapping("num/calendar")
+	@GetMapping("calendar")
 	public String calendar() {
 		return "member/fragment/member-dash-calendar";
 	}

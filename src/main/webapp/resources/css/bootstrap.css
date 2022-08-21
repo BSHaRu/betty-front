@@ -4253,6 +4253,13 @@ input[type="button"].btn-block {
   cursor: default;
 }
 
+.side-nav-back .nav-link.disabled {
+  color: #92a0afd7;
+  pointer-events: none;
+  cursor: default;
+  font-size: 1rem;
+}
+
 .nav-link.wait {
   color: #6c757d;
 }

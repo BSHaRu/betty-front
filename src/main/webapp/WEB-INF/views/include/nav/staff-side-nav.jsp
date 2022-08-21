@@ -3,21 +3,21 @@
     
 <!-- side bar -->
 <div class="fixed-left">
-	<ul class="nav flex-column">
+	<ul class="nav flex-column side-nav-back">
 	  <li class="nav-item">
-	    <a class="nav-link active" href="#">직원 관리 화면</a>
+	    <a class="nav-link disabled">직원 화면</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="#">회원 정보</a>
+	    <a class="nav-link" href="${path}/staff/num">내 정보</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="#">대여 현황</a>
+	    <a class="nav-link" href="${path}/staff/rentals/">대여 현황</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="#">도서 현황</a>
+	    <a class="nav-link" href="${path}/staff/books/">도서 현황</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="#">도서 입고</a>
+	    <a class="nav-link" href="${path}/staff/books/new">도서 입고</a>
 	  </li>
 	</ul>
 </div>
