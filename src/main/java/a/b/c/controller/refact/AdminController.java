@@ -22,6 +22,6 @@ public class AdminController {
 	@GetMapping("members/")
 	public String memberListOfAdmin() {
 		System.out.println("CALL");
-		return "admin/members";
+		return "admin/admin-members";
 	}
 }
